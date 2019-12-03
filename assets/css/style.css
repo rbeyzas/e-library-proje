@@ -1,0 +1,916 @@
+@font-face {
+    src: url("../fonts/Palanquin-Thin.ttf");
+    font-family: "Palanquin-Thin";
+}
+@font-face {
+    src: url("../fonts/Palanquin-Regular.ttf");
+    font-family: "Palanquin-Regular";
+}
+@font-face {
+    src: url("../fonts/Bellb.ttf");
+    font-family: "Bell";
+}
+@font-face {
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-family: "OpenSans";
+}
+
+body {
+    background: #222222;
+}
+img {
+    width: 100%;
+}
+
+
+/*** Anasayfa - Header ***/
+.home-header {
+    background: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    opacity: 0.6;
+}
+.home-header:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+button.toggle-nav {
+    display: none;
+    outline: 0;
+    cursor: pointer;
+}
+.logo {
+    float: left;
+    padding: 20px 0 15px 100px;
+    width: 12%;
+}
+.nav {
+    float: right;
+    padding-top: 50px;
+}
+.nav:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13pt;
+    font-family: "Palanquin-Thin";
+    transition: all 0.9s ease;
+    cursor: pointer;
+}
+.nav ul li a:hover {
+    color: #fec200;
+    border-bottom: 1px solid #fec200;
+    box-shadow: 0px 3px 0px #fec200;
+}
+.dropbtn {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: "Palanquin-Thin";
+    font-size: 14pt;
+    transition: all 0.4s ease;
+    outline: 0;
+}
+.dropbtn:hover, .dropbtn:focus {
+    color: #fec200;
+    border-bottom: 1px solid #fec200;
+    box-shadow: 0px 3px 0px #fec200; 
+}
+.dropdown-content {
+    background: #000000;
+    display: none;
+    position: absolute;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-bottom: 5px;
+}
+.dropdown-content a {
+    color: #000000;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+button i {
+    padding-left: 5px;
+}
+
+
+/*** Anasayfa - Slider ***/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.intro-slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+  height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+  object-fit: cover;
+  z-index:-1;
+  /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+/* .intro-slideshow img:first-child {
+  display: block;
+  opacity: 1;
+} */
+.intro .intro-header {
+  border-radius: 0.5rem;
+  padding: 2rem 2.5rem;
+  background-color: rgba(0,0,0,0.5);
+}
+.intro h1 {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+.intro p {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 700px) {
+  html { font-size: 12px; }
+  .intro-header { padding: 1.5rem 2rem; }
+  .intro h1 { font-size: 2.5rem; }
+  .intro p { font-size: 1.25rem; }
+}
+
+
+
+/*** Anasayfa - Uzmanlık Alanlarımız ***/
+section.uzmanlik-alanlari {
+    margin-top: 10px;
+}
+section.uzmanlik-alanlari:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.expertise-line {
+    margin-left: 100px;
+    background-color: #a7a7a7;
+    height: 1px;
+    width: 550px;
+    margin-top: 100px;
+}
+.expertise-title {
+    color: #a7a7a7;
+    font-family: "Palanquin-Thin";
+    font-size: 45pt;
+    padding-left: 400px;
+}
+.expertise-slider {
+    margin: 40px 0px 100px 0px;
+    background-color: #181818;
+    padding: 0px 50px;
+}
+.expertise-slider .item {
+    margin: 25px 0px;
+}
+#subject .owl-nav.disabled {
+    display: block;
+}
+#subject .owl-nav [class*=owl-] {
+    color: #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+    background: #fec200;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#subject .owl-prev {
+    margin-right: 25%;
+}
+#subject .owl-next {
+    margin-left: 25%;
+}
+#subject .owl-nav.disabled:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.subject-image {
+    transition: all 0.9s ease;
+}
+.subject-image:hover {
+    transform: scale(1.1);
+}
+.subject-desc {
+    margin-left: -15px;
+    padding: 10px 20px;
+    box-shadow: -6px 5px 14px #060606;
+    background-color: #282828;
+}
+.subject-title {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18pt;
+}
+.desc {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+    padding-top: 20px;
+}
+.end-line {
+    background-color: #a7a7a7;
+    height: 1px;
+    width: 30%;
+    float: right;
+    margin-right: 200px;
+}
+
+
+/*** Anasayfa - Tespit ***/
+section.tespit {
+    background-color: #181818;
+    margin: 150px 0px 200px 0px;
+    padding: 40px 0;
+}
+section.tespit:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+section.tespit .panel {
+    padding: 0px 100px;
+    background-color: #282828;
+    box-shadow: 0px 10px 14px #060606;
+}
+.fixing-image {
+    transition: all 0.9s ease;
+}
+.fixing-image:hover {
+    transform: scale(1.1);
+    transition: all 0.9s ease;
+}
+.fixing-image-title {
+    right: 30px;
+    position: absolute;
+    z-index: 1;
+    font-size: 35pt;
+    text-shadow: 6px 4px 11px #000000;
+    color: #000000;
+    font-family: "Palanquin-Thin";
+    text-align: right;
+    transition: all 0.9s ease;
+    top: 0px;
+}
+.fixing-image-title h1 {
+    padding-top: 50px;
+    padding-right: 10px;
+    font-size: 35pt;
+}
+.fixing-title {
+    color: #a7a7a7;
+    font-family: "Palanquin-Thin";
+    font-size: 35pt;
+    text-align: center;
+    text-shadow: 6px 4px 6px #000000;
+    padding-top: 50px;
+}
+.fixing-desc {
+    font-family: "Palanquin-Regular";
+    font-size: 10pt;
+    line-height: 30px;
+    color: #a8a8a8;
+    text-align: justify;
+}
+section.tespit .line {
+    width: 30%;
+    height: 1px;
+    background-color: #a7a7a7;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+/*** Anasayfa - Footer ***/
+section.iletisim {
+    background: black;
+}
+section.iletisim:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.contact-title .title {
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: "Palanquin-Thin";
+    font-size: 45pt;
+    background-color: #282828;
+    text-align: right;
+    margin-left: 200px;
+    margin-right: 50px;
+    float: left;
+}
+.contact-title .line {
+    width: 1px;
+    height: 100px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 90px;
+}
+.contact-detail {
+    margin: 100px 0 20px 0;
+    padding-left: 0px;
+}
+.contact-detail .icon {
+    opacity: 0.6;
+    font-size: 25px;
+    float: left;
+    color: #ffffff;
+    padding-right: 10px;
+}
+.contact-detail p {
+    opacity: 0.6;
+    color: #ffffff;
+    font-family: "Palanquin-Thin";
+    font-size: 13pt;
+}
+.footer-social-media {
+    display: none;
+}
+.advert {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 0px;
+}
+.advert a {
+    color: #ffffff;
+    font-family: "OpenSans";
+}
+
+
+/*** Kurumsal - Header ***/
+.header {
+    width: 100%;
+    position: fixed;
+    background: #0e0e0e;
+    top: 0;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/*** Kurumsal - Slider ***/
+section.kurumsal-slider {
+    background-color: #181818;
+}
+section.kurumsal-slider:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.about-us-container {
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.about-us-container .image {
+    transition: all 0.9s ease;
+}
+.about-us-container .image:hover {
+    transform: scale(1.1);
+}
+.about-us-container .title {
+    font-size: 50pt;
+    text-align: left;
+    color: #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    font-family: "Palanquin-Thin";
+    margin-top: 20px;
+}
+
+
+/*** Kurumsal - Vizyon ***/
+section.vizyon {
+    margin-top: 150px;
+    background-color: #181818;
+}
+section.vizyon:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.vision-container {
+    padding-top: 20px;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+#vision .owl-nav.disabled {
+    display: block;
+}
+#vision .owl-nav [class*=owl-] {
+    color: #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+    background: #fec200;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#vision .owl-prev {
+    margin-right: 10%;
+}
+#vision .owl-next {
+    margin-left: 10%;
+}
+.vision-galery .item {
+    transition: all 0.9s ease;
+}
+.vision-galery .item:hover {
+    transform: scale(1.1);
+}
+.vision-desc {
+    box-shadow: -11px 5px 14px #060606;
+    background-color: #282828;
+    padding: 45px 40px;
+}
+.vision-title {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-top: 20px;
+    font-size: 35pt;
+}
+.vision-desc .desc {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Thin";
+    padding-top: 20px;
+}
+
+
+
+/*** Arabuluculuk Nedir ***/
+section.mediation {
+    background-color: #181818;
+    padding-bottom: 30px;
+}
+section.mediation:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.mediation-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+}
+.mediation-container .mediation-big-title {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 35px;
+    font-size: 45pt;
+    border-bottom: 1px solid #a9a9a9;
+}
+.mediation-container .mediation-desc {
+    box-shadow: 11px 11px 14px #060606;
+    background-color: #282828;
+    padding: 20px 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+}
+
+
+/*** Arabulucu Ne Yapar ***/
+section.mediator {
+    background-color: #181818;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.mediator:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.mediator-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.mediator-container h1 {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 35px;
+    font-size: 45pt;
+    border-bottom: 1px solid #a9a9a9;
+}
+.mediator-container p {
+    box-shadow: 11px 11px 14px #a9a9a9;
+    background-color: #282828;
+    padding: 30px 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+    overflow: auto;
+    width: 100%;
+    max-height: 430px;
+}
+
+
+/*** Ne Zaman Arabuluculuğa Gidilir ***/
+section.mediator-when {
+    background-color: #181818;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.mediator-when:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.mediator-when-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.mediator-when-container h1 {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 25px;
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 40pt;
+}
+.mediator-when-container p {
+    box-shadow: 11px 11px 14px #060606;
+    background-color: #282828;
+    padding: 30px 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+}
+
+
+/*** Arabuluculuk Süreci Nasıl İşler ***/
+section.process {
+    background-color: #181818;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.process:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.process-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.process-desc {
+    background-color: #282828;
+    box-shadow: 11px 11px 14px #060606;
+    padding: 30px 80px;
+}
+.process-desc h1 {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 25px;
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 40pt;
+}
+.process-desc h2 {
+    line-height: 30px;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+}
+.process-container p {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+}
+
+
+/*** Hukuki Sonuç ***/
+section.law {
+    background-color: #181818;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.law:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.law-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.law-container h1 {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.law-container p {
+    box-shadow: 11px 11px 14px #060606;
+    background-color: #282828;
+    padding: 30px 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+}
+
+
+/*** Başarısız Olunursa Ne Olur ***/
+section.result {
+    background-color: #181818;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.result:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.result-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.result-container h1 {
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-family: "Palanquin-Thin";
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.result-container p {
+    box-shadow: 11px 11px 14px #060606;
+    background-color: #282828;
+    padding: 30px 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: justify;
+    color: #a9a9a9;
+    font-size: 10pt;
+    font-family: "Palanquin-Regular";
+}
+
+
+/*** Uzmanlık Alanlarımız - Slider ***/
+section.hizmetler-slider {
+    background-color: #181818;
+}
+section.hizmetler-slider:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.services-container {
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.services-container img {
+    transition: all 0.9s ease;
+}
+.services-container img:hover {
+    transform: scale(1.1);
+}
+.services-container .title {
+    font-size: 50pt;
+    text-align: left;
+    color: #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    font-family: "Palanquin-Thin";
+    margin-top: 20px;
+}
+
+
+/*** Uzmanlık Alanlarımız - 1 ***/
+section.hizmetler1 {
+    margin-top: 100px;
+    background-color: #181818;
+}
+section.hizmetler1:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.services-container .services-image {
+    padding-right: 40px;
+}
+.services-container .services-desc {
+    box-shadow: 11px 11px 14px #060606;
+    background-color: #282828;
+    padding: 20px 80px;
+    margin-top: -80px;
+}
+
+
+/*** Uzmanlık Alanlarımız - 2 ***/
+section.hizmetler2 {
+    margin-top: 300px;
+    background-color: #181818;
+}
+section.hizmetler2:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.services-container .line {
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+
+/*** Uzmanlık Alanlarımız - 3 ***/
+section.hizmetler3 {
+    margin-top: 200px;
+    background-color: #181818;
+}
+section.hizmetler3:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*** Uzmanlık Alanlarımız - 4 ***/
+section.hizmetler4 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: #181818;
+}
+section.hizmetler4:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*** İletişim ***/
+section.iletisim-page {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+section.iletisim-page:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.contact-line {
+    width: 1px;
+    height: 50%;
+    background-color: #ffffff;
+}
+.contact-panel {
+    padding:  0;
+    max-width: 500px;
+    position: absolute;
+    z-index: 1;
+    background-color: #272727;
+    opacity: 0.9;
+    margin-left: 100px;
+    margin-top: -25px;
+    box-shadow: 6px 6px 16px #000000;
+}
+.contact-panel .title {
+    font-family: "Palanquin-Thin";
+    color: #ffffff;
+    font-size: 50pt;
+    text-align: left;
+}
+.contact-panel .icon {
+    font-size: 25px;
+    float: left;
+    color: #ffffff;
+    padding-right: 10px;
+}
+.contact-panel p {
+    color: #ffffff;
+    font-family: "Palanquin-Thin";
+    font-size: 13pt;
+}
+
+.contact-panel .phone-numbers,
+.contact-panel .email,
+.contact-panel .fax,
+.contact-panel .address {
+    margin-top: 30px;
+}
+
+.contact-image {
+    transition: all 0.9s ease;
+    float: right;
+}
+
+.contact-image:hover {
+    transform: scale(1.1);
+}
+.footer-page-social-media {
+    text-align: left;
+    margin-top: 20px;
+}
+.footer-page-social-media ul {
+    padding-left: 0px;
+}
+.footer-page-social-media ul li {
+    font-size: 18px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 8px;
+}
+.footer-page-social-media ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: "Palanquin-Thin";
+}
+.footer-page-social-media ul li a:hover {
+    color: #fec200;
+}
+.contact-panel {
+    padding:  0;
+    margin-top: -25px;
+}
+
+.iletisim-card {
+    padding: 30px 30px 30px 30px;
+}
+#map{
+    min-height: 250px;
+}
