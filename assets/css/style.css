@@ -231,11 +231,11 @@ body {
 
 
 
-/*** Anasayfa - Uzmanlık Alanlarımız ***/
-section.uzmanlik-alanlari {
+/*** home-most read books ***/
+section.most-read-books {
     margin-top: 10px;
 }
-section.uzmanlik-alanlari:after {
+section.most-read-books:after {
     display: block;
     content: "";
     clear: both;
@@ -325,7 +325,7 @@ section.uzmanlik-alanlari:after {
 }
 
 
-/*** Anasayfa - Tespit ***/
+/*** home - counter ***/
 section.tespit {
     background-color: #181818;
     margin: 150px 0px 200px 0px;
@@ -389,7 +389,7 @@ section.tespit .line {
 }
 
 
-/*** Anasayfa - Footer ***/
+/*** home - Footer ***/
 section.iletisim {
     background: black;
 }
@@ -447,8 +447,7 @@ section.iletisim:after {
     font-family: "OpenSans";
 }
 
-
-/*** Kurumsal - Header ***/
+/*** make a reservation - Header ***/
 .header {
     width: 100%;
     position: fixed;
@@ -458,117 +457,22 @@ section.iletisim:after {
     z-index: 2;
 }
 
-
-/*** Kurumsal - Slider ***/
-section.kurumsal-slider {
-    background-color: #181818;
-}
-section.kurumsal-slider:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.about-us-container {
-    margin-right: 200px;
-    margin-left: 100px;
-}
-.about-us-container .image {
-    transition: all 0.9s ease;
-}
-.about-us-container .image:hover {
-    transform: scale(1.1);
-}
-.about-us-container .title {
-    font-size: 50pt;
-    text-align: left;
-    color: #a7a7a7;
-    border-bottom: 1px solid #a7a7a7;
-    font-family: "Palanquin-Thin";
-    margin-top: 20px;
-}
-
-
-/*** Kurumsal - Vizyon ***/
-section.vizyon {
-    margin-top: 150px;
-    background-color: #181818;
-}
-section.vizyon:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.vision-container {
-    padding-top: 20px;
-    margin-right: 200px;
-    margin-left: 100px;
-}
-#vision .owl-nav.disabled {
-    display: block;
-}
-#vision .owl-nav [class*=owl-] {
-    color: #000000;
-    font-size: 20px;
-    padding: 0px 20px;
-    background: #fec200;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#vision .owl-prev {
-    margin-right: 10%;
-}
-#vision .owl-next {
-    margin-left: 10%;
-}
-.vision-galery .item {
-    transition: all 0.9s ease;
-}
-.vision-galery .item:hover {
-    transform: scale(1.1);
-}
-.vision-desc {
-    box-shadow: -11px 5px 14px #060606;
-    background-color: #282828;
-    padding: 45px 40px;
-}
-.vision-title {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-top: 20px;
-    font-size: 35pt;
-}
-.vision-desc .desc {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Thin";
-    padding-top: 20px;
-}
-
-
-
-/*** Arabuluculuk Nedir ***/
-section.mediation {
+/*** Make a reservation ***/
+section.reservation {
     background-color: #181818;
     padding-bottom: 30px;
 }
-section.mediation:after {
+section.reservation:after {
     content: "";
     clear: both;
     display: block;
 }
-.mediation-container {
+.reservation-container {
     margin-left: 150px;
     margin-right: 150px;
     padding-top: 50px;
 }
-.mediation-container .mediation-big-title {
+.reservation-container .reservation-big-title {
     line-height: 30px;
     text-align: justify;
     color: #a9a9a9;
@@ -577,7 +481,7 @@ section.mediation:after {
     font-size: 45pt;
     border-bottom: 1px solid #a9a9a9;
 }
-.mediation-container .mediation-desc {
+.reservation-container .reservation-desc {
     box-shadow: 11px 11px 14px #060606;
     background-color: #282828;
     padding: 20px 80px;
@@ -588,48 +492,6 @@ section.mediation:after {
     font-size: 10pt;
     font-family: "Palanquin-Regular";
 }
-
-
-/*** Arabulucu Ne Yapar ***/
-section.mediator {
-    background-color: #181818;
-    margin-top: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-section.mediator:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.mediator-container {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.mediator-container h1 {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-bottom: 35px;
-    font-size: 45pt;
-    border-bottom: 1px solid #a9a9a9;
-}
-.mediator-container p {
-    box-shadow: 11px 11px 14px #a9a9a9;
-    background-color: #282828;
-    padding: 30px 80px;
-    margin-top: 10px;
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Regular";
-    overflow: auto;
-    width: 100%;
-    max-height: 430px;
-}
-
 
 /*** Ne Zaman Arabuluculuğa Gidilir ***/
 section.mediator-when {
@@ -657,125 +519,6 @@ section.mediator-when:after {
     font-size: 40pt;
 }
 .mediator-when-container p {
-    box-shadow: 11px 11px 14px #060606;
-    background-color: #282828;
-    padding: 30px 80px;
-    margin-top: 10px;
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Regular";
-}
-
-
-/*** Arabuluculuk Süreci Nasıl İşler ***/
-section.process {
-    background-color: #181818;
-    margin-top: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-section.process:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.process-container {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.process-desc {
-    background-color: #282828;
-    box-shadow: 11px 11px 14px #060606;
-    padding: 30px 80px;
-}
-.process-desc h1 {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-bottom: 25px;
-    border-bottom: 1px solid #a9a9a9;
-    font-size: 40pt;
-}
-.process-desc h2 {
-    line-height: 30px;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-}
-.process-container p {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Regular";
-}
-
-
-/*** Hukuki Sonuç ***/
-section.law {
-    background-color: #181818;
-    margin-top: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-section.law:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.law-container {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.law-container h1 {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-bottom: 20px;
-    border-bottom: 1px solid #a9a9a9;
-}
-.law-container p {
-    box-shadow: 11px 11px 14px #060606;
-    background-color: #282828;
-    padding: 30px 80px;
-    margin-top: 10px;
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Regular";
-}
-
-
-/*** Başarısız Olunursa Ne Olur ***/
-section.result {
-    background-color: #181818;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-section.result:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.result-container {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.result-container h1 {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-bottom: 20px;
-    border-bottom: 1px solid #a9a9a9;
-}
-.result-container p {
     box-shadow: 11px 11px 14px #060606;
     background-color: #282828;
     padding: 30px 80px;
@@ -817,12 +560,12 @@ section.hizmetler-slider:after {
 }
 
 
-/*** Uzmanlık Alanlarımız - 1 ***/
-section.hizmetler1 {
+/*** most-read-books - 1 ***/
+section.books1 {
     margin-top: 100px;
     background-color: #181818;
 }
-section.hizmetler1:after {
+section.books1:after {
     content: "";
     clear: both;
     display: block;
@@ -838,12 +581,12 @@ section.hizmetler1:after {
 }
 
 
-/*** Uzmanlık Alanlarımız - 2 ***/
-section.hizmetler2 {
+/*** most-read-books - 2 ***/
+section.books2 {
     margin-top: 300px;
     background-color: #181818;
 }
-section.hizmetler2:after {
+section.books2:after {
     content: "";
     clear: both;
     display: block;
@@ -855,32 +598,32 @@ section.hizmetler2:after {
 }
 
 
-/*** Uzmanlık Alanlarımız - 3 ***/
-section.hizmetler3 {
+/*** most-read-books- 3 ***/
+section.books3 {
     margin-top: 200px;
     background-color: #181818;
 }
-section.hizmetler3:after {
+section.books3:after {
     content: "";
     clear: both;
     display: block;
 }
 
 
-/*** Uzmanlık Alanlarımız - 4 ***/
-section.hizmetler4 {
+/*** most-read-books - 4 ***/
+section.books4 {
     margin-top: 200px;
     margin-bottom: 100px;
     background-color: #181818;
 }
-section.hizmetler4:after {
+section.books4:after {
     content: "";
     clear: both;
     display: block;
 }
 
 
-/*** İletişim ***/
+/*** Contact ***/
 section.iletisim-page {
     margin-right: 100px;
     margin-left: 100px;
@@ -969,7 +712,4 @@ section.iletisim-page:after {
 
 .iletisim-card {
     padding: 30px 30px 30px 30px;
-}
-#map{
-    min-height: 250px;
 }

@@ -7,7 +7,7 @@ $(document).ready(function() {
 	if(window.innerWidth > 800) {
 		var headerHeight=$(".header").height();
 		$('section.kurumsal-slider').css("margin-top", headerHeight+100);
-		$('section.mediation').css("margin-top", headerHeight+100);
+		$('section.reservation').css("margin-top", headerHeight+100);
 		$('section.hakkimizda-ekibimiz').css("margin-top", headerHeight+100);
 		$('section.hizmetler-slider').css("margin-top", headerHeight+100);
 		$('section.iletisim-page').css("margin-top", headerHeight+100);
@@ -16,7 +16,7 @@ $(document).ready(function() {
 	{
 		var headerHeight=$(".header").height();
 		$('section.kurumsal-slider').css("margin-top", headerHeight+50);
-		$('section.mediation').css("margin-top", headerHeight+50);
+		$('section.reservation').css("margin-top", headerHeight+50);
 		$('section.hakkimizda-ekibimiz').css("margin-top", headerHeight+50);
 		$('section.hizmetler-slider').css("margin-top", headerHeight+50);
 		$('section.iletisim-page').css("margin-top", headerHeight+50);

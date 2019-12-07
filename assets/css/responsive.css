@@ -3,27 +3,15 @@
     .logo {
         padding: 20px 0 15px 85px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    .team-title {
-        font-size: 38pt;
-        margin-top: 192px;
-        left: 25%;
-    }
-    #ekip-slider3 img {
-        width: 86%;
-    }
-    #ekip-slider4 .team-desc {
-        max-height: 420px;
-    }
     /*** Kurumsal - Misyon ***/
     .mission-desc {
         max-height: 550px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container .mediation-desc {
+    .reservation-container .reservation-desc {
         padding: 20px 50px;
     }
-    .mediation-container .mediation-big-title {
+    .reservation-container .reservation-big-title {
         font-size: 40pt;
     }
     /*** Arabulucu Ne Yapar ***/
@@ -33,31 +21,6 @@
     }
     .mediator-container h1 {
         font-size: 40pt;
-    }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container h1 {
-        font-size: 33pt;
-    }
-    .mediator-when-container p {
-        padding: 30px 50px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-desc {
-        padding: 30px 50px;
-    }
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    .law-container h1 {
-        font-size: 24pt;
-    }
-    .law-container p {
-        padding: 30px 50px;
-    }
-    /*** Başarısız Olunursa Ne Olur ***/
-    .result-container p {
-        padding: 30px 50px;
-    }
-    .result-desc {
-        margin-top: -130px;
     }
     /*** Ekibimiz ***/
     #team-slider1 .owl-nav.disabled {
@@ -82,7 +45,7 @@
         padding: 40px 50px;
     }
     /*** Anasayfa - Arabuluculuk ***/
-    .mediation-text {
+    .reservation-text {
         padding-top: 30px;
     }
     /*** Anasayfa - Ekibimiz ***/
@@ -107,8 +70,8 @@
         padding-top: 0px;
         line-height: 25px;
     }
-    /*** Anasayfa - Tespit ***/
-    section.tespit .panel {
+    /*** Anasayfa - counter ***/
+    section.counter .panel {
         padding: 0px 50px;
     }
     .fixing-image-title {
@@ -217,7 +180,7 @@
     .desc {
         font-size: 9pt;
     }
-    /*** Anasayfa - Tespit ***/
+    /*** Anasayfa - counter ***/
     .fixing-title {
         font-size: 25pt;
     }
@@ -240,7 +203,7 @@
         max-height: 490px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container .mediation-big-title {
+    .reservation-container .reservation-big-title {
         font-size: 35pt;
     }
     /*** Arabulucu Ne Yapar ***/
@@ -280,13 +243,13 @@
     .services-container .vision-title {
         font-size: 25pt;
     }
-    section.hizmetler2 {
+    section.books2 {
         margin-top: 150px;
     }
-    section.hizmetler3 {
+    section.books3 {
         margin-top: 150px;
     }
-    section.hizmetler4 {
+    section.books4 {
         margin-top: 150px;
     }
     /*** İletişim ***/
@@ -311,7 +274,7 @@
         bottom: 40%;
     }
     /*** Anasayfa - Arabuluculuk ***/
-    .mediation-text {
+    .reservation-text {
         padding-top: 15px;
     }
     /*** Anasayfa - Ekibimiz ***/
@@ -321,8 +284,8 @@
     .team-title {
         font-size: 30pt;
     }
-    /*** Anasayfa - Tespit ***/
-    section.tespit {
+    /*** Anasayfa - counter ***/
+    section.counter {
         margin-top: 100px;
     }
     /*** Anasayfa - Footer ***/
@@ -351,11 +314,11 @@
         padding-top: 50px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container .mediation-big-title {
+    .reservation-container .reservation-big-title {
         font-size: 30pt;
         padding-bottom: 15px;
     }
-    .mediation-container {
+    .reservation-container {
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -446,13 +409,13 @@
     section.arabuluculuk .panel {
         padding: 0px 20px;
     }
-    .mediation-title {
+    .reservation-title {
         font-size: 35pt;
     }
-    .mediation-image {
+    .reservation-image {
         padding-top: 22px;
     }
-    .mediation-text {
+    .reservation-text {
         padding-right: 10px;
     }
     /*** Anasayfa - Ekibimiz ***/
@@ -471,8 +434,8 @@
     .team1 {
         padding-right: 0px;
     }
-    /*** Anasayfa - Tespit ***/
-    section.tespit {
+    /*** Anasayfa - counter ***/
+    section.counter {
         margin-bottom: 100px;
     }
     /*** Anasayfa - Footer ***/
@@ -525,7 +488,7 @@
         margin-top: 25px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container {
+    .reservation-container {
         padding-top: 20px;
     }
     /*** Arabulucu Ne Yapar ***/
@@ -599,16 +562,16 @@
     section.hizmetler-slider .title {
         font-size: 30pt;
     }
-    .hizmetler1 .services-container.clearfix
+    .books1 .services-container.clearfix
     {
         display: flex;
         flex-wrap: wrap-reverse;
     }
-    .hizmetler1 .services-container .services-desc {
+    .books1 .services-container .services-desc {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    section.hizmetler1 {
+    section.books1 {
         padding-bottom: 20px;
     }
     .services-container .services-image {
@@ -621,20 +584,20 @@
     .services-container .line {
         display: none;
     }
-    section.hizmetler2 {
+    section.books2 {
         margin-top: 100px;
         padding-bottom: 20px;
     }
-    section.hizmetler3 {
+    section.books3 {
         margin-top: 100px;
         padding-bottom: 20px;
     }
-    .hizmetler3 .services-container.clearfix
+    .books3 .services-container.clearfix
     {
         display: flex;
         flex-wrap: wrap-reverse;
     }
-    section.hizmetler4 {
+    section.books4 {
         margin-top: 100px;
         padding-bottom: 20px;
     }
@@ -719,10 +682,10 @@
         position: relative;
     }
     /*** Anasayfa - Arabuluculuk ***/
-    .mediation-title {
+    .reservation-title {
         font-size: 30pt;
     }
-    .mediation-text {
+    .reservation-text {
         padding-right: 20px;
         padding-left: 20px;
     }
@@ -780,8 +743,8 @@
     .subject-image:hover {
         transform: none;
     }
-    /*** Anasayfa - Tespit ***/
-    section.tespit {
+    /*** Anasayfa - counter ***/
+    section.counter {
         margin-top: 50px;
     }
     .fixing-image {
@@ -824,7 +787,7 @@
         transform: none;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container {
+    .reservation-container {
         margin-right: 50px;
         margin-left: 50px;
     } 
@@ -878,7 +841,7 @@
         margin-right: 50px;
         margin-left: 50px;
     } 
-    section.hizmetler1 {
+    section.books1 {
         margin-top: 50px;
     }
     .services-container .services-image {
@@ -912,7 +875,7 @@
         padding: 10px 20px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container .mediation-big-title {
+    .reservation-container .reservation-big-title {
         font-size: 25pt;
     }
     /*** Arabulucu Ne Yapar ***/
@@ -949,15 +912,15 @@
     #subject .owl-nav [class*=owl-] {
         margin-top: 0px;
     }
-    /*** Anasayfa - Tespit ***/
+    /*** Anasayfa - counter ***/
     .fixing-title {
         padding-top: 0px;
     }
-    section.tespit .line {
+    section.counter .line {
         margin-top: 50px;
     }
     /*** Arabuluculuk nedir ***/
-    .mediation-container .mediation-desc {
+    .reservation-container .reservation-desc {
         padding: 20px 30px;
     }
     /*** Arabulucu Ne Yapar ***/
@@ -1020,15 +983,15 @@
         font-size: 25pt;
     }
     /*** Anasayfa - Arabuluculuk ***/
-    .mediation-title {
+    .reservation-title {
         font-size: 25pt;
         margin-top: 50px;
     }
-    .mediation-text {
+    .reservation-text {
         padding-right: 0px;
         padding-left: 0px;
     }
-    .mediation-image {
+    .reservation-image {
         padding-right: 0px;
         padding-left: 0px;
     }
@@ -1053,8 +1016,8 @@
     .expertise-slider {
         padding: 0px 20px;
     }
-    /*** Anasayfa - Tespit ***/
-    section.tespit .panel {
+    /*** Anasayfa - counter ***/
+    section.counter .panel {
         padding: 0px 20px;
     }
     .fixing-image-title {
@@ -1082,11 +1045,11 @@
         margin-left: 20px;
     }
     /*** Arabuluculuk Nedir ***/
-    .mediation-container {
+    .reservation-container {
         margin-right: 20px;
         margin-left: 20px;
     }
-    .mediation-container .mediation-big-title {
+    .reservation-container .reservation-big-title {
         font-size: 20pt;
         padding-bottom: 3px;
     }
@@ -1185,7 +1148,7 @@
     .services-container .services-desc {
         padding: 20px 10px;
     }
-    section.hizmetler4 {
+    section.books4 {
         margin-bottom: 50px;
     }
     /*** İletişim ***/
