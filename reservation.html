@@ -41,22 +41,22 @@
                         <a href="contact.html">Contact</a>
                     </li>
                      <li>
-                   <button type="button" class="btn btn-danger">Sign In</button>
+                   <button type="button" class="btn btn-danger"><a href="signin.html">Sign In</a></button>
                     </li>
                     <li>
-                   <button type="button" class="btn btn-danger">Sign Up</button>
+                   <button type="button" class="btn btn-danger"><a href="signup.html">Sign Up</a></button>
                     </li>
                 </ul>
             </div>
         </div>
 
         <!-- Rezervasyon nasıl yapılır -->
-        <section class="mediation" id="mediation">
-            <div class="mediation-container">
-                <div class="col-md-12 mediation-big-title">
+        <section class="reservation" id="reservation">
+            <div class="reservation-container">
+                <div class="col-md-12 reservation-big-title">
                     Rezervasyon Nasıl Yapılır?
                 </div>
-                <div class="col-md-12 mediation-desc">     
+                <div class="col-md-12 reservation-desc">     
                     - <br>
                     - <br>
                     - <br>
@@ -83,6 +83,12 @@
                         </div>
                         <p>0538 785 18 51</p>
                     </div>
+                    <div class="phone">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i> 
+                        </div>
+                        <p>0 530 279 07 51</p>
+                    </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
@@ -91,7 +97,13 @@
                             <i class="fa fa-envelope"></i>
                         </div>
                         <p>rukiyebeyzasarikaya@hotmail.com</p>                          
-                    </div>                
+                    </div> 
+                    <div class="mail">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <p>cagrihd@icloud.com</p>                          
+                    </div>               
                 </div>
 
                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
@@ -131,8 +143,8 @@
 
         <script>
             var hash=window.location.hash;
-            if (hash == "#mediation") {
-                var offset=$("#mediation").offset().top;
+            if (hash == "#reservation") {
+                var offset=$("#reservation").offset().top;
                 $('html, body').animate({
                     scrollTop: offset
                 }, 900);    
