@@ -37,7 +37,14 @@
                 </div>
             </div>
         </div>
-
+        <?php
+		
+		$link = mysqli_connect("localhost", "root", "", "membership");
+		
+		if($link === false){
+ 		die("ERROR: Could not connect. " . mysqli_connect_error());
+		}
+		?>
      <script src="assets/js/custom.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
         <script src="assets/js/jquery.counterup.min.js"></script>
