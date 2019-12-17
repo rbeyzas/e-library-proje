@@ -77,6 +77,7 @@ if(@$_COOKIE["giris"]=="1"){
                                     $sql = "INSERT INTO users (user_kid, user_email, user_pass) VALUES ('".$user."', '".$mail."', '".$password."')";
                                     if (mysqli_query($conn, $sql)) {    
                                           echo "Kayıt gerçekleştirildi!";
+                                          header("Location: signin.php"); 
                                     } else {
                                           echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                                     }
