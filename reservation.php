@@ -29,7 +29,7 @@
                     Rezervasyon Nasıl Yapılır?
                 </div>
                 <div class="col-md-12 reservation-desc">     
-                    - <br>
+                    -asda <br>
                     - <br>
                     - <br>
                     - <br>

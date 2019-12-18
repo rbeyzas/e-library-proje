@@ -1,5 +1,5 @@
 <html lang="tr">
-<?php $pagenum=1; ?>
+<?php $pagenum=5; ?>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,43 +29,28 @@
         </div>
 
 <!--End Navbar-->
-        <!-- Slider -->
-        <header class="intro">
-    <div class="intro-slideshow">
-      <img src="assets/img/slider/slider1.jpeg">
-      <img src="assets/img/slider/slider2.jpeg">
-      <img src="assets/img/slider/slider3.jpeg">
-      <img src="assets/img/slider/slider4.jpeg">
-      <img src="assets/img/slider/slider5.jpeg">
-    </div>
-    <div class="intro-header">
-      <h1>E-LİBRARY</h1>
-      <p>Library Management System</p>
-    </div>
-  </header>
-       
-
-       <div class="expertise-line"></div>
+<div class="expertise-line"></div>
         <div class="expertise-title">
-            Most Read Books
+            Science Fiction-Fantastic Books
         </div>
-        <!-- most read books -->
+<!-- most read books -->
         
-        <section class="books">         
+<section class="books">         
             <div class="expertise-slider">
                 <div class="owl-carousel owl-theme" id="subject">
-                    <div class="item">
+                <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/nutuk.jpg">
+                            <img src="assets/img/allbooks/fireandblood.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                Nutuk<br>
+                            Fire And Blood<br>
                             </div>
                             <div class="desc">
-                                <p><b>Author:Mustafa Kemal ATATÜRK</b></p>
-                                This book, written by the great leader Atatürk, the founder of our country, and the first source of how our country was founded, is a book that every Turkish youth should read. He studied Atatürk Nutuk in the Turkish Grand National Assembly for six days.
-
+                                <p><b>Author:George R. R. Martin</b></p>
+                                
+The calendars are turning back, households are rising and falling, and all the details of Targaryen history are revealed for the first time, when the throne games are both the easiest and the most difficult.
+Centuries before the events of the Game of Thrones, the House of Targaryen, the only family of dragons surviving from the Apocalypse, settled in Dragon Rock.
                             </div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
                                     
@@ -74,50 +59,96 @@
 
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/momo.jpg">
+                            <img src="assets/img/allbooks/felsefetasi.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                Momo<br>
+                            Philoseopher's Stone <br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Michael Ende</b></p>
-                               There are amphitheater ruins hidden in a small pine forest where there are many fields and houses and huts become increasingly poor. This ruin seems to be forgotten in the days when Momo's story will begin.
-                            </div>  
+                            <p><b>Author:J.K. Rowling</b></p>
+                            Ten-year-old Harry is an orphan who lives with his uncaring Aunt Petunia, loathsome Uncle Vernon, and (worst of all) his spoiled cousin Dudley. Always in trouble for things that are not apparently his fault, condemned to a life of drudgery and forced to sleep in a cupboard under the stairs, Harry is astonished to receive a letter from the Hogwarts School of Witchcraft and Wizardry.
+</div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
 					<div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/littleprince.jpg">
+                            <img src="assets/img/allbooks/spoilsport.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                The Little Prince<br>
+                            Spoilsport<br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Antoine de Saint Exupery</b></p>
-                                The author described an event he had experienced. Our author is a pilot. One day while flying over Africa, the plane's engine fails, making a forced landing. There's no one to ask for help. In the middle of the desert, he hears a strange, thin sound between his sleep at sunrise. Opposite, there is an interesting little one. This is the Little Prince.
-                            </div>  
+                            <p><b>Author:James Dashner</b></p>
+                            Por manager Myron Bolitar was at the top of his career. So does the novice quarterback and Myron's valued client, Christian Steele. But Christian got out of hand when he got a call from his ex-girlfriend, who everyone thought was dead, including the police.
+</div>  
                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
-                    </div>	
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/roomsofsecrets.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            Rooms Of Secrets<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:J.K. Rowling</b></p>
+                            After a very difficult year, Harry Potter begins his second year at Hogwarts with great joy. But at school, he became a scapegoat because of the students who became petrified. In fact, the genie Dobby, who appeared to him during the summer holiday, was impressed by what he said and did.
+</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/walkingdead.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            Walking Dead<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:Jay Bonansinga, Robert Kirkman</b></p>
+                            It all started with transformation. The old world that they knew was destroyed, and giant dead cities were born from the ashes. All their beloved ones turned one by one, and every day one of them joined the caravan of the walking dead.
+</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/yüksekbüyücü.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            High Magician<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:John Fowles</b></p>
+                            Nicholas is one of today's semi-intellectuals who, since his childhood, has decided that he is a true “cynic mış who has alienated himself from his life, dreams of becoming a poet, but doesn't fully believe it himself.
+</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>		
                     
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/myleftfoot.jpg">
+                            <img src="assets/img/allbooks/fahrenheit.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                My Left Foot<br>
+                            Fahrenheit 451<br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Christy Brown</b></p>
-                                Chiristy Brown was a victim of congenital cerebral palsy.
-                                He had the great imagination and sensitive intelligence of a writer to take his place among the giants of his literature.
-                                This is Chiristy Brown's own life story. Brown describes his childhood struggle to learn to read, write, paint, and finally use typewriters, and how he did all of this with his left foot.
-                            </div>  
+                            <p><b>Author:Ray Bradbury</b></p>
+                            Guy Montag was a fireman who loved his job. He's been burning books for ten years. He had never questioned their departure in the middle of the night, the swallowing of books by the flames ... He had never questioned, until he met that 17-year-old girl who told a history of fearlessness.
+</div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
                     </div>		
@@ -126,33 +157,7 @@
             <div class="end-line"></div>
         </section>
 
-        <!-- Tespit -->
-        <section class="tespit" onscroll="Onscrollfnction();">
-            <div class="panel clearfix">
-                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 fixing-image">
-                    <img src="assets/img/count.jpeg">
-                    <div class="fixing-image-title">
-                        <h1 class="counter">15.000</h1>
-                        <p class="count-text">Books</p>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 fixing">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 fixing-title">
-                        <h1 class="counter">1236</h1>
-                        <p class="count-text ">Reader</p>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 video">
-                         <!-- <video width="100%" height="auto" controls>
-                           <source type="video/mp4" src="assets/video/video.mp4" allowfullscreen="true"> </source> 
-                        </video>   -->                  
-                    </div>
-                </div>
-            </div>
-            <div class="line"></div>
-        </section>  
-
         <!-- İletişim -->
-        
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
                 <div class="title">İLETİŞİM</div>
@@ -179,14 +184,14 @@
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
-                        <p>	rukiyebeyzasarikaya@hotmail.com</p>                          
+                        <p>rukiyebeyzasarikaya@hotmail.com</p>                          
                     </div> 
                     <div class="mail">
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
                         <p>cagrihd@icloud.com</p>                          
-                    </div>                
+                    </div>               
                 </div>
 
                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
@@ -194,7 +199,7 @@
                         <i class="fa fa-map-marker"></i> 
                     </div>
                     <p>
-                      ADANA
+                        ADANA
                     </p>     
                 </div>
             </div>
@@ -208,9 +213,7 @@
                 </ul>
             </div>
         </section>
-        
-     
-        
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>

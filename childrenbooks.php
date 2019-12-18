@@ -1,5 +1,5 @@
 <html lang="tr">
-<?php $pagenum=1; ?>
+<?php $pagenum=2; ?>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,42 +29,26 @@
         </div>
 
 <!--End Navbar-->
-        <!-- Slider -->
-        <header class="intro">
-    <div class="intro-slideshow">
-      <img src="assets/img/slider/slider1.jpeg">
-      <img src="assets/img/slider/slider2.jpeg">
-      <img src="assets/img/slider/slider3.jpeg">
-      <img src="assets/img/slider/slider4.jpeg">
-      <img src="assets/img/slider/slider5.jpeg">
-    </div>
-    <div class="intro-header">
-      <h1>E-LİBRARY</h1>
-      <p>Library Management System</p>
-    </div>
-  </header>
-       
-
-       <div class="expertise-line"></div>
+<div class="expertise-line"></div>
         <div class="expertise-title">
-            Most Read Books
+            Children Books
         </div>
-        <!-- most read books -->
+<!-- most read books -->
         
-        <section class="books">         
+<section class="books">         
             <div class="expertise-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/nutuk.jpg">
+                            <img src="assets/img/allbooks/Pinocchio.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                Nutuk<br>
+                            Pinocchio<br>
                             </div>
                             <div class="desc">
-                                <p><b>Author:Mustafa Kemal ATATÜRK</b></p>
-                                This book, written by the great leader Atatürk, the founder of our country, and the first source of how our country was founded, is a book that every Turkish youth should read. He studied Atatürk Nutuk in the Turkish Grand National Assembly for six days.
+                                <p><b>Author:Carlo Collodi</b></p>
+                                The interesting subject of the work attracted much attention with its educative side, especially the motif of prolonging the nose when lying. With these features, Pinocchio becomes one of the most famous children's novels and characters in World Literature. It has remained one of the world's most important children's classics.
 
                             </div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
@@ -74,50 +58,94 @@
 
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/momo.jpg">
+                            <img src="assets/img/allbooks/lakechildren.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                Momo<br>
+                            Lake Children<br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Michael Ende</b></p>
-                               There are amphitheater ruins hidden in a small pine forest where there are many fields and houses and huts become increasingly poor. This ruin seems to be forgotten in the days when Momo's story will begin.
-                            </div>  
+                            <p><b>Author:Ibrahim Ors</b></p>
+                            The children of the village of Gölüstü held a dog swimming race in the lake. The race started by Temel wins the prize whichever dog catches the piece of wood thrown 100 meters away from the shore. Mukhtar, the elders and the gendarmerie commander sergeant Selami watch the race. Seven children and their dog participate in the race
+</div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
 					<div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/littleprince.jpg">
+                            <img src="assets/img/allbooks/alone efe.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                The Little Prince<br>
+                            Alone Efe<br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Antoine de Saint Exupery</b></p>
-                                The author described an event he had experienced. Our author is a pilot. One day while flying over Africa, the plane's engine fails, making a forced landing. There's no one to ask for help. In the middle of the desert, he hears a strange, thin sound between his sleep at sunrise. Opposite, there is an interesting little one. This is the Little Prince.
-                            </div>  
+                            <p><b>Author:Omer Seyfettin</b></p>
+                            There was a man in the village of Yörük who was very popular by the people. This man and the people who live in another village Eseoglud interest in the works are daunted. Eseoğlu introduces the people of the village as bandits to the outside as well as foreclosing the lands of all people.</div>  
                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
-                    </div>	
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/silverwing.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            Silver Wing<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:Cahit Uçuk</b></p>
+                            It is a work that is written with a subject that reveals that the goodness is reciprocal and the goodness will always come back and that hope should never be lost when exposed to the evil and that friendship, friendship and family environment are important in society. Source: Cahit Uçuk Silver Wing book summary, heroes, main idea, subject and review
+</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/turtles.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            Turtles<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:Fakir Bayburt</b></p>
+                            It is a novel in which the problems and realities of the village are explained by symbolizing turtles. In a barren village named Tozak, the problems of the villagers were explained by the seizure of the vineyards by the state.
+</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="assets/img/allbooks/andersenmasallari.jpg">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            Andersen Tales<br>
+                            </div>
+                            <div class="desc">
+                            <p><b>Author:Hans Christian Andersen</b></p>
+                            Bullet Soldier - Match Girl - Emperor's New Clothes - Flying Chest - Snowman - Pig Shepherd - Garden of Eden - Two Lovers - Queen of Snows - Mermaid - Princess with Peas - Rose Fairy - Water Drop - Nightingale - Absolutely Right - Talisman - Lighter
+...</div>  
+                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                        </div>
+                    </div>		
                     
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/myleftfoot.jpg">
+                            <img src="assets/img/allbooks/stories.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                My Left Foot<br>
+                            Stories<br>
                             </div>
                             <div class="desc">
-                            <p><b>Author:Christy Brown</b></p>
-                                Chiristy Brown was a victim of congenital cerebral palsy.
-                                He had the great imagination and sensitive intelligence of a writer to take his place among the giants of his literature.
-                                This is Chiristy Brown's own life story. Brown describes his childhood struggle to learn to read, write, paint, and finally use typewriters, and how he did all of this with his left foot.
-                            </div>  
+                            <p><b>Author:Anton Çehov</b></p>
+                            The book, which consists of twenty-five exciting and interesting stories of Chekhov's famous story of Russian storytelling, tells the inner world of heroes and their contradictions.</div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
                     </div>		
@@ -126,33 +154,7 @@
             <div class="end-line"></div>
         </section>
 
-        <!-- Tespit -->
-        <section class="tespit" onscroll="Onscrollfnction();">
-            <div class="panel clearfix">
-                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 fixing-image">
-                    <img src="assets/img/count.jpeg">
-                    <div class="fixing-image-title">
-                        <h1 class="counter">15.000</h1>
-                        <p class="count-text">Books</p>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 fixing">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 fixing-title">
-                        <h1 class="counter">1236</h1>
-                        <p class="count-text ">Reader</p>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 video">
-                         <!-- <video width="100%" height="auto" controls>
-                           <source type="video/mp4" src="assets/video/video.mp4" allowfullscreen="true"> </source> 
-                        </video>   -->                  
-                    </div>
-                </div>
-            </div>
-            <div class="line"></div>
-        </section>  
-
         <!-- İletişim -->
-        
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
                 <div class="title">İLETİŞİM</div>
@@ -179,14 +181,14 @@
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
-                        <p>	rukiyebeyzasarikaya@hotmail.com</p>                          
+                        <p>rukiyebeyzasarikaya@hotmail.com</p>                          
                     </div> 
                     <div class="mail">
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
                         <p>cagrihd@icloud.com</p>                          
-                    </div>                
+                    </div>               
                 </div>
 
                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
@@ -194,7 +196,7 @@
                         <i class="fa fa-map-marker"></i> 
                     </div>
                     <p>
-                      ADANA
+                        ADANA
                     </p>     
                 </div>
             </div>
@@ -208,9 +210,7 @@
                 </ul>
             </div>
         </section>
-        
-     
-        
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
