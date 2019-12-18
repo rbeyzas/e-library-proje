@@ -107,47 +107,16 @@
 
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/turtles.jpg">
+                            <img src="assets/img/allbooks/kırlangıc.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                            Turtles<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Fakir Bayburt</b></p>
-                            It is a novel in which the problems and realities of the village are explained by symbolizing turtles. In a barren village named Tozak, the problems of the villagers were explained by the seizure of the vineyards by the state.
-</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/andersenmasallari.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Andersen Tales<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Hans Christian Andersen</b></p>
-                            Bullet Soldier - Match Girl - Emperor's New Clothes - Flying Chest - Snowman - Pig Shepherd - Garden of Eden - Two Lovers - Queen of Snows - Mermaid - Princess with Peas - Rose Fairy - Water Drop - Nightingale - Absolutely Right - Talisman - Lighter
-...</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>		
-                    
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/stories.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Stories<br>
+                            Swallow's Cry<br>
                             </div>
                             <div class="desc">
                             <p><b>Author:Anton Çehov</b></p>
-                            The book, which consists of twenty-five exciting and interesting stories of Chekhov's famous story of Russian storytelling, tells the inner world of heroes and their contradictions.</div>  
+                            Like his other books, Ahmet Ümit's latest book, The Swallow's Scream, has garnered quite a good reaction. Our character, of course, was Nevzat Başkomserdi. We missed Nevzat Başkomser after Beyoğlu's Most Beautiful Brother. Of course, Evgenia, Commissioner Zeynep and the other team are also in the same novel. In short, the book met the reader as a genre of Ahmet Ümit's series of typical detective novels.
+</div>  
                             <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
                         </div>
                     </div>		
