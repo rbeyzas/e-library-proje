@@ -80,7 +80,7 @@
 
 					<div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/alone efe.jpg">
+                            <img src="assets/img/allbooks/alone-efe.jpg">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
