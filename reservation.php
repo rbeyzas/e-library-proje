@@ -29,14 +29,19 @@
                     Rezervasyon Nasıl Yapılır?
                 </div>
                 <div class="col-md-12 reservation-desc">     
-                    -asda <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>          
+                <div class="col-lg-6 intro_col">
+					<div class="intro_form_container">
+						<div class="intro_form_title">  <em>   Rezervasyon yap </em> </div>
+						<form action="#" class="intro_form" id="intro_form">
+							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
+								<input type="name" class="intro_input" placeholder="İsim" >
+								<input type="email" class="intro_input" placeholder="E-mail" >
+								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date">
+							</div>
+							<button class="button button_1 intro_button trans_200">Rezervasyon Yap</button>
+						</form>
+					</div>
+				</div>
                 </div>                        
             </div>
         </section>

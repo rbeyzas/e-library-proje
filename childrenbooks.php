@@ -1,5 +1,7 @@
 <html lang="tr">
-<?php $pagenum=2; ?>
+<?php $pagenum=7; 
+    require_once("inc/connect.php");
+?>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,7 +53,9 @@
                                 The interesting subject of the work attracted much attention with its educative side, especially the motif of prolonging the nose when lying. With these features, Pinocchio becomes one of the most famous children's novels and characters in World Literature. It has remained one of the world's most important children's classics.
 
                             </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
+                            <div>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                            </div>   
                                     
                         </div>
                     </div>
@@ -68,7 +72,9 @@
                             <p><b>Author:Ibrahim Ors</b></p>
                             The children of the village of Gölüstü held a dog swimming race in the lake. The race started by Temel wins the prize whichever dog catches the piece of wood thrown 100 meters away from the shore. Mukhtar, the elders and the gendarmerie commander sergeant Selami watch the race. Seven children and their dog participate in the race
 </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                            <div>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                            </div>                
                         </div>
                     </div>
 
@@ -83,7 +89,9 @@
                             <div class="desc">
                             <p><b>Author:Omer Seyfettin</b></p>
                             There was a man in the village of Yörük who was very popular by the people. This man and the people who live in another village Eseoglud interest in the works are daunted. Eseoğlu introduces the people of the village as bandits to the outside as well as foreclosing the lands of all people.</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div>
+                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                           </div>                
                         </div>
                     </div>
 
@@ -99,7 +107,9 @@
                             <p><b>Author:Cahit Uçuk</b></p>
                             It is a work that is written with a subject that reveals that the goodness is reciprocal and the goodness will always come back and that hope should never be lost when exposed to the evil and that friendship, friendship and family environment are important in society. Source: Cahit Uçuk Silver Wing book summary, heroes, main idea, subject and review
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div>
+                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                           </div>                
                         </div>
                     </div>
 
@@ -115,7 +125,9 @@
                             <p><b>Author:Fakir Bayburt</b></p>
                             It is a novel in which the problems and realities of the village are explained by symbolizing turtles. In a barren village named Tozak, the problems of the villagers were explained by the seizure of the vineyards by the state.
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div>
+                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                           </div>                
                         </div>
                     </div>
 
@@ -131,7 +143,9 @@
                             <p><b>Author:Hans Christian Andersen</b></p>
                             Bullet Soldier - Match Girl - Emperor's New Clothes - Flying Chest - Snowman - Pig Shepherd - Garden of Eden - Two Lovers - Queen of Snows - Mermaid - Princess with Peas - Rose Fairy - Water Drop - Nightingale - Absolutely Right - Talisman - Lighter
 ...</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div>
+                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                           </div>                
                         </div>
                     </div>		
                     
@@ -146,7 +160,9 @@
                             <div class="desc">
                             <p><b>Author:Anton Çehov</b></p>
                             The book, which consists of twenty-five exciting and interesting stories of Chekhov's famous story of Russian storytelling, tells the inner world of heroes and their contradictions.</div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                            <div>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                            </div>                
                         </div>
                     </div>		
                 </div> 
