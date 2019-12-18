@@ -54,7 +54,7 @@
 The calendars are turning back, households are rising and falling, and all the details of Targaryen history are revealed for the first time, when the throne games are both the easiest and the most difficult.
 Centuries before the events of the Game of Thrones, the House of Targaryen, the only family of dragons surviving from the Apocalypse, settled in Dragon Rock.
                             </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
+                            <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>   
                                     
                         </div>
                     </div>
@@ -71,7 +71,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:J.K. Rowling</b></p>
                             Ten-year-old Harry is an orphan who lives with his uncaring Aunt Petunia, loathsome Uncle Vernon, and (worst of all) his spoiled cousin Dudley. Always in trouble for things that are not apparently his fault, condemned to a life of drudgery and forced to sleep in a cupboard under the stairs, Harry is astonished to receive a letter from the Hogwarts School of Witchcraft and Wizardry.
 </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                            <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:James Dashner</b></p>
                             Por manager Myron Bolitar was at the top of his career. So does the novice quarterback and Myron's valued client, Christian Steele. But Christian got out of hand when he got a call from his ex-girlfriend, who everyone thought was dead, including the police.
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
@@ -103,7 +103,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:J.K. Rowling</b></p>
                             After a very difficult year, Harry Potter begins his second year at Hogwarts with great joy. But at school, he became a scapegoat because of the students who became petrified. In fact, the genie Dobby, who appeared to him during the summer holiday, was impressed by what he said and did.
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
@@ -119,7 +119,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:Jay Bonansinga, Robert Kirkman</b></p>
                             It all started with transformation. The old world that they knew was destroyed, and giant dead cities were born from the ashes. All their beloved ones turned one by one, and every day one of them joined the caravan of the walking dead.
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>
 
@@ -135,7 +135,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:John Fowles</b></p>
                             Nicholas is one of today's semi-intellectuals who, since his childhood, has decided that he is a true “cynic mış who has alienated himself from his life, dreams of becoming a poet, but doesn't fully believe it himself.
 </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                           <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>		
                     
@@ -151,7 +151,7 @@ Centuries before the events of the Game of Thrones, the House of Targaryen, the 
                             <p><b>Author:Ray Bradbury</b></p>
                             Guy Montag was a fireman who loved his job. He's been burning books for ten years. He had never questioned their departure in the middle of the night, the swallowing of books by the flames ... He had never questioned, until he met that 17-year-old girl who told a history of fearlessness.
 </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
+                            <div><button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button></div>                
                         </div>
                     </div>		
                 </div> 
