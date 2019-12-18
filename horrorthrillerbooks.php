@@ -40,117 +40,36 @@
 <section class="books">         
             <div class="expertise-slider">
                 <div class="owl-carousel owl-theme" id="subject">
-                <div class="item">
+                <?php
+$cat_id=3;
+$sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+while($satir=mysqli_fetch_array($sql))
+{ ?>
+                    <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/deadinpinkhouse.jpeg">
+                            <img src="<?=$satir["book_image"]?>">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                            Dead In Pink House<br>
+                            <?=$satir["book_name"]?><br>
                             </div>
                             <div class="desc">
-                                <p><b>Author:Agatha Christie  </b></p>
-                                But when Mrs Lockett speaks of "poison mushroom soup" and Mrs. Lancaster "corpses hidden behind the fireplace," Tommy and Tuppence find themselves in a creepy adventure that brings them both to the brink of death.
+                                <p><b>Author:<?=$satir["book_author"]?></b></p>
+                                <?=$satir["book_desc"]?>
+
                             </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
+                            <div>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>">Make a Reservation</a></button>
+                            </div>   
                                     
                         </div>
                     </div>
 
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/it.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            It<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Stephen King</b></p>
-                            Derry, a small American town. Derry is not like any other American town because it has a feature that distinguishes it from other towns. There is a creature that lives in the gratings under the town of Derry. Although this creature may appear to people from time to time, it usually occurs in people's nightmares.
-</div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
+           
+<?php }
 
-					<div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/theniceguys.png">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            The Nice Guys<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Bill Bonanno , Joe Pistone</b></p>
-                            The events that started with the Mafia and FBI chasing a missing professor at the same time were transformed into a novel read by two writers who witnessed these events firsthand. The Good Men are the most true stories ever told about the good, the bad, the ugly and the funny on both sides of the law.
-</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/roomsofsecrets.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Rooms Of Secrets<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:J.K. Rowling</b></p>
-                            After a very difficult year, Harry Potter begins his second year at Hogwarts with great joy. But at school, he became a scapegoat because of the students who became petrified. In fact, the genie Dobby, who appeared to him during the summer holiday, was impressed by what he said and did.
-</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/turtles.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Turtles<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Fakir Bayburt</b></p>
-                            It is a novel in which the problems and realities of the village are explained by symbolizing turtles. In a barren village named Tozak, the problems of the villagers were explained by the seizure of the vineyards by the state.
-</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/andersenmasallari.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Andersen Tales<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Hans Christian Andersen</b></p>
-                            Bullet Soldier - Match Girl - Emperor's New Clothes - Flying Chest - Snowman - Pig Shepherd - Garden of Eden - Two Lovers - Queen of Snows - Mermaid - Princess with Peas - Rose Fairy - Water Drop - Nightingale - Absolutely Right - Talisman - Lighter
-...</div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>		
-                    
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/stories.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Stories<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Anton Çehov</b></p>
-                            The book, which consists of twenty-five exciting and interesting stories of Chekhov's famous story of Russian storytelling, tells the inner world of heroes and their contradictions.</div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>		
+?>                
+    
                 </div> 
             </div>  
             <div class="end-line"></div>
@@ -220,7 +139,7 @@
         <script src="assets/js/jquery.nicescroll.min.js"></script>
         <script>
             $(function () {
-                $('#homeSlider').owlCarousel({
+                /*$('#homeSlider').owlCarousel({
                     loop: true,
                     dots: false,
                     margin: 0,
@@ -232,7 +151,7 @@
                     responsiveClass: true,
                     animateIn: 'fadeIn',
                     animateOut: 'fadeOut'
-                });
+                });*/
                  $('#subject').owlCarousel({
                     loop: true,
                     dots: false,

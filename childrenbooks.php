@@ -40,132 +40,39 @@
 <section class="books">         
             <div class="expertise-slider">
                 <div class="owl-carousel owl-theme" id="subject">
+                <?php
+                $cat_id=1;
+                $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                while($satir=mysqli_fetch_array($sql))
+                { ?>
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/Pinocchio.jpg">
+                            <img src="<?=$satir["book_image"]?>">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                            Pinocchio<br>
+                            <?=$satir["book_name"]?><br>
                             </div>
                             <div class="desc">
-                                <p><b>Author:Carlo Collodi</b></p>
-                                The interesting subject of the work attracted much attention with its educative side, especially the motif of prolonging the nose when lying. With these features, Pinocchio becomes one of the most famous children's novels and characters in World Literature. It has remained one of the world's most important children's classics.
+                                <p><b>Author:<?=$satir["book_author"]?></b></p>
+                                <?=$satir["book_desc"]?>
 
                             </div>  
                             <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>">Make a Reservation</a></button>
                             </div>   
                                     
                         </div>
                     </div>
 
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/lakechildren.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Lake Children<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Ibrahim Ors</b></p>
-                            The children of the village of Gölüstü held a dog swimming race in the lake. The race started by Temel wins the prize whichever dog catches the piece of wood thrown 100 meters away from the shore. Mukhtar, the elders and the gendarmerie commander sergeant Selami watch the race. Seven children and their dog participate in the race
-</div>  
-                            <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                            </div>                
-                        </div>
-                    </div>
-
-					<div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/alone-efe.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Alone Efe<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Omer Seyfettin</b></p>
-                            There was a man in the village of Yörük who was very popular by the people. This man and the people who live in another village Eseoglud interest in the works are daunted. Eseoğlu introduces the people of the village as bandits to the outside as well as foreclosing the lands of all people.</div>  
-                           <div>
-                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                           </div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/silverwing.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Silver Wing<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Cahit Uçuk</b></p>
-                            It is a work that is written with a subject that reveals that the goodness is reciprocal and the goodness will always come back and that hope should never be lost when exposed to the evil and that friendship, friendship and family environment are important in society. Source: Cahit Uçuk Silver Wing book summary, heroes, main idea, subject and review
-</div>  
-                           <div>
-                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                           </div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/turtles.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Turtles<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Fakir Bayburt</b></p>
-                            It is a novel in which the problems and realities of the village are explained by symbolizing turtles. In a barren village named Tozak, the problems of the villagers were explained by the seizure of the vineyards by the state.
-</div>  
-                           <div>
-                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                           </div>                
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/andersenmasallari.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Andersen Tales<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Hans Christian Andersen</b></p>
-                            Bullet Soldier - Match Girl - Emperor's New Clothes - Flying Chest - Snowman - Pig Shepherd - Garden of Eden - Two Lovers - Queen of Snows - Mermaid - Princess with Peas - Rose Fairy - Water Drop - Nightingale - Absolutely Right - Talisman - Lighter
-...</div>  
-                           <div>
-                           <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                           </div>                
-                        </div>
-                    </div>		
                     
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/allbooks/stories.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            Stories<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Anton Çehov</b></p>
-                            The book, which consists of twenty-five exciting and interesting stories of Chekhov's famous story of Russian storytelling, tells the inner world of heroes and their contradictions.</div>  
-                            <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php">Make a Reservation</a></button>
-                            </div>                
-                        </div>
-                    </div>		
+
+           
+<?php }
+
+?>
                 </div> 
+
             </div>  
             <div class="end-line"></div>
         </section>

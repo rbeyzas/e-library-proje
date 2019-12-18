@@ -1,5 +1,33 @@
 <html lang="tr">
-<?php $pagenum=3; ?>
+<?php require_once("inc/connect.php"); 
+
+$pagenum=3; 
+
+$bookid=@$_GET["id"];
+if($bookid){
+    $rezervebook;
+    $counter=0;
+    $sql = mysqli_query($conn, "select * from books where book_id='$bookid' ");
+    while($satir=mysqli_fetch_array($sql))
+    {
+        $rezervebook=$satir;
+        $counter=1;
+    }
+
+   
+    if($counter==0){
+        header("Location: index.php");
+        exit();
+    }
+
+
+}else{
+    header("Location: index.php");
+    exit();    
+}
+
+
+?>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,14 +59,37 @@
                 <div class="col-md-12 reservation-desc">     
                 <div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
-						<div class="intro_form_title">  <em>   Rezervasyon yap </em> </div>
-						<form action="#" class="intro_form" id="intro_form">
+						<div class="intro_form_title"><em>Rezervasyon yap</em> </div>
+						<form action="" method="post" class="intro_form" id="intro_form">
 							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-								<input type="name" class="intro_input" placeholder="İsim" >
-								<input type="email" class="intro_input" placeholder="E-mail" >
-								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date">
+								<input type="text" name="name" class="intro_input" placeholder="İsim"  value="<?=@$_COOKIE['kid']?>">
+								<input type="email" name="email" class="intro_input" placeholder="E-mail" >
+								<input type="text" name="date" id="datepicker" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="intro_input datepicker" placeholder="Date">
 							</div>
-							<button class="button button_1 intro_button trans_200">Rezervasyon Yap</button>
+                            <input type="submit" value="Rezervasyon Yap" name="signup"/>
+
+                            <?php
+    if($_POST){
+
+        if($_POST['name'] && $_POST['date'] && $_POST['email']){
+            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].")";
+            if (mysqli_query($conn, $sql)) {    
+                  echo "Kayıt gerçekleştirildi!";
+            } else {
+                  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            }
+            mysqli_close($conn);  
+        }else{
+
+        echo "Lütfen tüm alanları doldurunuz!"; 
+
+        }
+
+    
+    }
+      
+
+?>
 						</form>
 					</div>
 				</div>

@@ -1,5 +1,6 @@
 <html lang="tr">
-<?php $pagenum=1; ?>
+<?php require_once("inc/connect.php"); 
+$pagenum=1; ?>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,74 +54,36 @@
         
         <section class="books">         
             <div class="expertise-slider">
-                <div class="owl-carousel owl-theme" id="subject">
+            <div class="owl-carousel owl-theme" id="subject">
+                    
+                <?php
+$sql = mysqli_query($conn, "select * from books");
+while($satir=mysqli_fetch_array($sql))
+{ ?>
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/nutuk.jpg">
+                            <img src="<?=$satir["book_image"]?>">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
                             <div class="subject-title">
-                                Nutuk<br>
+                            <?=$satir["book_name"]?><br>
                             </div>
                             <div class="desc">
-                                <p><b>Author:Mustafa Kemal ATATÜRK</b></p>
-                                This book, written by the great leader Atatürk, the founder of our country, and the first source of how our country was founded, is a book that every Turkish youth should read. He studied Atatürk Nutuk in the Turkish Grand National Assembly for six days.
+                                <p><b>Author:<?=$satir["book_author"]?></b></p>
+                                <?=$satir["book_desc"]?>
 
                             </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>   
+                            <div>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>">Make a Reservation</a></button>
+                            </div>   
                                     
                         </div>
                     </div>
 
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/momo.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                                Momo<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Michael Ende</b></p>
-                               There are amphitheater ruins hidden in a small pine forest where there are many fields and houses and huts become increasingly poor. This ruin seems to be forgotten in the days when Momo's story will begin.
-                            </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>
+           
+<?php }
 
-					<div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/littleprince.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                                The Little Prince<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Antoine de Saint Exupery</b></p>
-                                The author described an event he had experienced. Our author is a pilot. One day while flying over Africa, the plane's engine fails, making a forced landing. There's no one to ask for help. In the middle of the desert, he hears a strange, thin sound between his sleep at sunrise. Opposite, there is an interesting little one. This is the Little Prince.
-                            </div>  
-                           <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>	
-                    
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="assets/img/books/myleftfoot.jpg">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                                My Left Foot<br>
-                            </div>
-                            <div class="desc">
-                            <p><b>Author:Christy Brown</b></p>
-                                Chiristy Brown was a victim of congenital cerebral palsy.
-                                He had the great imagination and sensitive intelligence of a writer to take his place among the giants of his literature.
-                                This is Chiristy Brown's own life story. Brown describes his childhood struggle to learn to read, write, paint, and finally use typewriters, and how he did all of this with his left foot.
-                            </div>  
-                            <div><button type="button" class="btn btn-warning"><a href="services.html#books1">Make a Reservation</a></button></div>                
-                        </div>
-                    </div>		
+?>  
                 </div> 
             </div>  
             <div class="end-line"></div>
@@ -179,7 +142,7 @@
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
-                        <p>	rukiyebeyzasarikaya@hotmail.com</p>                          
+                        <p> rukiyebeyzasarikaya@hotmail.com</p>                          
                     </div> 
                     <div class="mail">
                         <div class="icon">
@@ -218,7 +181,7 @@
         <script src="assets/js/jquery.nicescroll.min.js"></script>
         <script>
             $(function () {
-                $('#homeSlider').owlCarousel({
+               /* $('#homeSlider').owlCarousel({
                     loop: true,
                     dots: false,
                     margin: 0,
@@ -230,7 +193,7 @@
                     responsiveClass: true,
                     animateIn: 'fadeIn',
                     animateOut: 'fadeOut'
-                });
+                });*/
                  $('#subject').owlCarousel({
                     loop: true,
                     dots: false,
