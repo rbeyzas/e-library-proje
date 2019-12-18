@@ -42,9 +42,13 @@ if(@$_COOKIE["giris"]=="1"){
                         <div class="form-group">
                             <input type="password" class="form-control" name="password2" placeholder="Şifre tekrarı *" value="" />
                         </div>
-                        <div class="form-group">
-                            <input type="submit" class="btnSubmit" value="Login" name="signup"/>
+                        <div class="col-md-6 form-group">
+                            <a href="index.php"><input type="button" class="btnSubmit" value="Anasayfa" /></a>
                         </div>
+                        <div class="col-md-6 form-group">
+                            <input type="submit" class="btnSubmit" value="Save" name="signup"/>
+                        </div>
+                        
                         <?php
 
 
@@ -77,6 +81,7 @@ if(@$_COOKIE["giris"]=="1"){
                                     $sql = "INSERT INTO users (user_kid, user_email, user_pass) VALUES ('".$user."', '".$mail."', '".$password."')";
                                     if (mysqli_query($conn, $sql)) {    
                                           echo "Kayıt gerçekleştirildi!";
+                                          header("Location: signin.php"); 
                                     } else {
                                           echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                                     }
