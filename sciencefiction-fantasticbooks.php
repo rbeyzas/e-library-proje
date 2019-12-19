@@ -68,7 +68,8 @@ while($satir=mysqli_fetch_array($sql))
            
 <?php }
 
-?>                      
+?>                
+    
                 </div> 
             </div>  
             <div class="end-line"></div>

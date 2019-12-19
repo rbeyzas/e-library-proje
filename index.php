@@ -57,7 +57,9 @@ $pagenum=1; ?>
             <div class="owl-carousel owl-theme" id="subject">
                     
                 <?php
-$sql = mysqli_query($conn, "select * from books");
+
+                    $cat_id=5;
+                $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
 while($satir=mysqli_fetch_array($sql))
 { ?>
                     <div class="item">
