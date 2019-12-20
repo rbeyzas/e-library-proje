@@ -4,6 +4,7 @@
 $pagenum=3; 
 
 $bookid=@$_GET["id"];
+
 if($bookid){
     $rezervebook;
     $counter=0;
