@@ -29,14 +29,14 @@
         </div>
 
 <!--End Navbar-->
-     <div class="expertise-line"></div>
-        <div class="expertise-title">
+     <div class="readbooks-line"></div>
+        <div class="readbooks-title">
             Children Books
         </div>
 <!-- children books -->
         
 <section class="most-read-books">         
-            <div class="expertise-slider">
+            <div class="readbooks-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">

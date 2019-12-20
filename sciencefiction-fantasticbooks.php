@@ -31,14 +31,14 @@
         </div>
 
 <!--End Navbar-->
-<div class="expertise-line"></div>
-        <div class="expertise-title">
+<div class="readbooks-line"></div>
+        <div class="readbooks-title">
             Science Fiction-Fantastic Books
         </div>
 <!-- most read books -->
         
 <section class="books">         
-            <div class="expertise-slider">
+            <div class="readbooks-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                 <?php
 $cat_id=2;

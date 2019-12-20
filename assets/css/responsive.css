@@ -3,10 +3,6 @@
     .logo {
         padding: 20px 0 15px 85px;
     }
-    /*** Kurumsal - Misyon ***/
-    .mission-desc {
-        max-height: 550px;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container .reservation-desc {
         padding: 20px 50px;
@@ -22,11 +18,7 @@
     .mediator-container h1 {
         font-size: 40pt;
     }
-    /*** Ekibimiz ***/
-    #team-slider1 .owl-nav.disabled {
-        top: 45%;
-    }
-    /*** Hizmetlerimiz - İşçi İşveren Uyuşmazlıkları ***/
+    /*** booksliderimiz - İşçi İşveren Uyuşmazlıkları ***/
     .services-container .services-desc {
         padding: 20px 50px;
     }
@@ -48,21 +40,7 @@
     .reservation-text {
         padding-top: 30px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    section.ekibimiz {
-        padding-top: 100px;
-    }
-    #ekip-slider4 {
-        margin-top: -100px;
-    }
-    #ekip-slider4 p {
-        padding-top: 0px; 
-    }
-    #ekip-slider4 .team-desc {
-        max-height: 365px;
-        padding: 0px 10px 10px 10px;
-    }
-    /*** Anasayfa - Uzmanlık Alanlarımız ***/
+    /*** Anasayfa - Books Slider ***/
     .subject-title {
         padding-top: 0px;
     }
@@ -98,38 +76,11 @@
     .about-us-container {
         margin-right: 100px;
     }
-    /*** Kurumsal - Vizyon ***/
-    .vision-desc {
-        padding: 20px 40px;
-    }
-    .vision-container {
-        margin-right: 100px;
-    }
-    /*** Kurumsal - Misyon ***/
-    .mission-container {
-        margin-right: 100px;
-    }
-    .mission-desc {
-        padding: 20px 40px;
-    }
-    .mission-desc .desc {
-        padding-top: 20px;
-    }
-    #mission {
-        margin-top: -75px;
-    }
     /*** Ne Zaman Arabuluculuğa Gidilir ***/
     .mediator-when-container h1 {
         font-size: 30pt;
     }
-    /*** Ekibimiz ***/
-    .team-slider1 {
-        margin-top: -50px;
-    }
-    #team-slider1 .owl-nav.disabled {
-        top: 43%;
-    }
-    /*** Uzmanlık Alanlarımız ***/
+    /*** Books Slider ***/
     .services-container {
         margin-right: 100px;
     }
@@ -163,18 +114,8 @@
     .about-us-text {
         padding: 35px 40px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    #ekip-slider4 .team-desc {
-        max-height: 335px;
-    }
-    #ekip-slider4 .team-desc h3 {
-        font-size: 15pt;
-    }
-    #ekip-slider4 p {
-        font-size: 9pt;
-    }
-    /*** Anasayfa - Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    /*** Anasayfa - Books Slider ***/
+    .readbooks-title {
         font-size: 35pt;
     }
     .desc {
@@ -191,17 +132,6 @@
     .contact-detail .icon {
         font-size: 22px;
     }
-    /*** Kurumsal - Vizyon ***/
-    #vision .owl-nav.disabled {
-        margin-top: 0;
-    }
-    .vision-desc {
-        padding: 20px;
-    }
-    /*** Kurumsal - Misyon ***/
-    .mission-desc {
-        max-height: 490px;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container .reservation-big-title {
         font-size: 35pt;
@@ -214,29 +144,11 @@
     .mediator-desc {
         margin-top: -55px;
     }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container h1 {
-        font-size: 27pt;
-    }
-    .mediator-when-desc {
-        margin-top: -115px;
-    }
     /*** Arabuluculuk Süreci Nasıl İşler ***/
     .process-desc h1 {
         font-size: 32pt;
     }
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    .law-desc {
-        margin-top: -25px;
-    }
-    .law-container h1 {
-        font-size: 23pt;
-    }
-    /*** Ekibimiz ***/
-    #team-slider1 .owl-nav.disabled {
-        top: 40%;
-    }
-    /*** Uzmanlık Alanlarımız ***/
+    /*** Books Slider ***/
     .services-container .title {
         font-size: 40pt;
     }
@@ -277,13 +189,6 @@
     .reservation-text {
         padding-top: 15px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    #ekip-slider4 .team-desc {
-        max-height: 305px;
-    }
-    .team-title {
-        font-size: 30pt;
-    }
     /*** Anasayfa - counter ***/
     section.counter {
         margin-top: 100px;
@@ -300,18 +205,6 @@
     }
     .contact-detail p {
         font-size: 10pt;
-    }
-    /*** Kurumsal - Vizyon ***/
-    .vision-desc .desc {
-        line-height: 25px;
-    }
-    /*** Kurumsal - Misyon ***/
-    .mission-desc {
-        padding: 20px;
-        max-height: 450px;
-    }
-    .vision-galery .col-lg-7 img {
-        padding-top: 50px;
     }
     /*** Arabuluculuk Nedir ***/
     .reservation-container .reservation-big-title {
@@ -331,11 +224,6 @@
         margin-left: 100px;
         margin-right: 100px;
     }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
     /*** Arabuluculuk Süreci Nasıl İşler ***/
     .process-container {
         margin-left: 100px;
@@ -344,30 +232,7 @@
     .process-desc h2 {
         font-size: 19pt;
     }
-    /*** Anlaşma Sağlanamamasının Hukuki Sonucu Nedir ***/
-    .law-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .law-container h1 {
-        padding-bottom: 15px;
-    }
-    /*** Başarısız Olunursa Ne Olur ***/
-    .result-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    /*** Ekibimiz ***/  
-    section.hakkimizda-ekibimiz .title {
-        font-size: 45pt;
-    }
-    section.hakkimizda-ekibimiz h1 {
-        font-size: 22pt;
-    }
-    #team-slider1 .owl-nav.disabled {
-        top: 38%;
-    }
-    /*** Hizmetlerimiz ***/
+    /*** booksliderimiz ***/
     .services-container .title {
         font-size: 40pt;
     }
@@ -418,22 +283,6 @@
     .reservation-text {
         padding-right: 10px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    section.ekibimiz {
-        margin-top: 100px;
-    }
-    section.ekibimiz .layer {
-        padding: 50px 40px;
-    }
-    #ekip-slider4 .team-desc {
-        max-height: 300px;
-    }
-    #ekip-slider4 .detail {
-        font-size: 8pt;
-    }
-    .team1 {
-        padding-right: 0px;
-    }
     /*** Anasayfa - counter ***/
     section.counter {
         margin-bottom: 100px;
@@ -455,54 +304,9 @@
     .contact-detail {
         margin-top: 15px;
     }
-    /*** Kurumsal - Slider ***/
-    section.kurumsal-slider .title {
-        font-size: 30pt;
-    }
-    /*** Kurumsal - Vizyon ***/
-    section.vizyon {
-        padding-bottom: 20px;
-        margin-top: 50px;
-    }
-    /*** Kurumsal - Misyon ***/
-    section.misyon {
-        margin-bottom: 100px;
-        margin-top: 100px;
-        padding-bottom: 20px;
-    }
-    .mission-desc {
-        width: 100%;
-    }
-    .vision-galery .col-lg-7 img {
-        padding-top: 25px;
-    }
-    .vision-galery {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    #mission {
-        display: none;
-    }
-    #mission-mobil {
-        display: block;
-        margin-top: 25px;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container {
         padding-top: 20px;
-    }
-    /*** Arabulucu Ne Yapar ***/
-    section.mediator {
-        margin-top: 100px;
-    }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    section.mediator-when {
-        margin-top: 100px;
-        padding-top: 20px;
-    }
-    .mediator-when-container h1 {
-        font-size: 30pt;
-        padding-bottom: 18px;
     }
     /*** Arabuluculuk Süreci Nasıl İşler ***/
     .process-desc h1 {
@@ -521,45 +325,8 @@
         display: flex;
         flex-wrap: wrap-reverse;
     }
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    section.law {
-        margin-top: 100px;
-    }
-    /*** Başarısız Olunursa Ne Olur ***/
-    section.result {
-        margin-top: 100px;
-        padding-top: 20px;
-        margin-bottom: 100px;
-    }
-    .result-desc {
-        margin-top: 0px;
-    }
-    .result-container.clearfix
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-    .result-container h1 {
-        font-size: 30pt;
-        padding-bottom: 14px;
-    }
-    /*** Ekibimiz ***/
-    section.hakkimizda-ekibimiz .title {
-        float: none;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .team-slider1 {
-        margin-top: 0px;
-    }
-    #team-slider1 .owl-nav.disabled {
-        top: 59%;
-    }
-    .team-slider {
-        margin-right: 100px;
-    }
-    /*** Uzmanlık Alanlarımız ***/
-    section.hizmetler-slider .title {
+    /*** Books Slider ***/
+    section.bookslider-slider .title {
         font-size: 30pt;
     }
     .books1 .services-container.clearfix
@@ -689,52 +456,11 @@
         padding-right: 20px;
         padding-left: 20px;
     }
-    /*** Anasayfa - Ekibimiz ***/
-    section.ekibimiz {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .team1 {
-        display: none;
-    }
-    #ekip-slider3 {
-        display: none;
-    }
-    section.ekibimiz .layer {
-        width: 100%;
-    }
-    .team-title {
-        position: relative;
-        transform: none;
-        background-color: transparent;
-        box-shadow: none;
-        margin-top: 0px;
-        padding: 0px;
-        text-align: left;
-        left: 10px;
-        border-bottom: 1px solid #a7a7a7;
-    }
-    section.ekibimiz .layer {
-        padding: 10px 40px 50px 40px;
-    }
-    #ekip-slider4 {
-        margin-top: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .team2 {
-        padding-right: 0px;
-        padding-left: 0px;
-        width: 100%;
-    }
-    #ekip-slider4 .team-desc {
-        max-height: 500px;
-    }
-    /*** Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    /*** Books Slider ***/
+    .readbooks-title {
         font-size: 30pt;
     }
-    .expertise-slider {
+    .readbooks-slider {
         margin: 40px 0px 50px 0px;
     }
     .subject-image {
@@ -753,39 +479,6 @@
     .fixing-image:hover {
         transform: none;
     }
-    /*** Kurumsal ***/
-    .about-us-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .vision-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .mission-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    } 
-    .about-us-container .image {
-        transition: none;
-    }
-    .about-us-container .image:hover {
-        transform: none;
-    }
-    /*** Kurumsal - Vizyon ***/
-    .vision-galery .item {
-        transition: none;
-    }
-    .vision-galery .item:hover {
-        transform: none;
-    }
-    /*** Kurumsal - Misyon ***/
-    .vision-galery .col-lg-7 img{
-        transition: none;
-    }
-    .vision-galery .col-lg-7 img:hover {
-        transform: none;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container {
         margin-right: 50px;
@@ -795,48 +488,13 @@
     .mediator-container {
         margin-right: 50px;
         margin-left: 50px;
-    } 
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container.clearfix {
-        margin-right: 50px;
-        margin-left: 50px;
-    } 
+    }
     /*** Arabuluculuk Süreci Nasıl İşler ***/
     .process-container {
         margin-right: 50px;
         margin-left: 50px;
-    } 
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    .law-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    } 
-    /*** Başarısız Olunursa Ne Olur ***/
-    .result-container.clearfix {
-        margin-right: 50px;
-        margin-left: 50px;
-    } 
-    /*** Ekibimiz ***/
-    section.hakkimizda-ekibimiz .title {
-        margin-right: 50px;
-        margin-left: 50px;
-        font-size: 30pt;
-        margin-bottom: 20px;
-    } 
-    .team-slider {
-        margin-right: 50px;
-        margin-left: 50px;
-    } 
-    #team-slider1 .owl-nav.disabled {
-        top: 55%;
     }
-    #team-slider1 .image, #team-slider2 .item {
-        transition: none;
-    }
-    #team-slider1 .image:hover, #team-slider2 .item:hover {
-        transform: none;
-    }
-    /*** Uzmanlık Alanlarımız ***/
+    /*** Books Slider ***/
     .services-container {
         margin-right: 50px;
         margin-left: 50px;
@@ -870,35 +528,19 @@
 }
 
 @media(max-width:768px) {
-   /*** Anasayfa - Kurumsal ***/
-   .about-us-text {
-        padding: 10px 20px;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container .reservation-big-title {
-        font-size: 25pt;
-    }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container h1 {
-        font-size: 25pt;
-    }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container h1 {
         font-size: 25pt;
     }
     /*** Arabuluculuk Süreci Nasıl İşler ***/
     .process-desc h1 {
         font-size: 25pt;
     }
-    /*** Başarısız Olunursa Ne Olur ***/
-    .result-container h1 {
-        font-size: 25pt;
-    }
 }
 
 @media(max-width:736px) {
-    /*** Anasayfa -Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    /*** Anasayfa -Books Slider ***/
+    .readbooks-title {
         padding-left: 350px;
     } 
     .subject-desc {
@@ -923,24 +565,8 @@
     .reservation-container .reservation-desc {
         padding: 20px 30px;
     }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container p {
-        padding: 20px 30px;
-    }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container p {
-        padding: 20px 30px;
-    }
     /*** Arabuluculuk SüreciNasıl İşler ***/
     .process-desc {
-        padding: 20px 30px;
-    }
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    .law-container p {
-        padding: 20px 30px;
-    }
-    /*** Başarısız Olunursa Ne Olur ***/
-    .result-container p {
         padding: 20px 30px;
     }
     /*** İletişim ***/
@@ -978,42 +604,16 @@
     .slider:after {
         height: 5px;
     }
-    /*** Anasayfa - Hakkımızda ***/
-    .about-us-title {
-        font-size: 25pt;
-    }
-    /*** Anasayfa - Arabuluculuk ***/
-    .reservation-title {
-        font-size: 25pt;
-        margin-top: 50px;
-    }
-    .reservation-text {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .reservation-image {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    /*** Anasayfa - Ekibimiz ***/
-    section.ekibimiz .layer {
-        padding: 10px 20px 50px 20px;
-    }
-    #ekip-slider4 .team-desc {
-        position: relative;
-        width: 100%;
-        right: 0px;
-    }
-    /*** Anasayfa - Uzmanlık Alanlarımız ***/
-    .expertise-line {
+    /*** Anasayfa - Books Slider ***/
+    .readbooks-line {
         margin-left: 10px;
         width: 200px;
     }
-    .expertise-title {
+    .readbooks-title {
         padding-left: 50px;
         font-size: 25pt;
     }
-    .expertise-slider {
+    .readbooks-slider {
         padding: 0px 20px;
     }
     /*** Anasayfa - counter ***/
@@ -1026,24 +626,6 @@
     .fixing-image-title h1 {
         font-size: 17pt;
     }
-    /*** Kurumsal - Slider ***/
-    .about-us-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    /*** Kurumsal - Vizyon ***/
-    .vision-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    /*** Kurumsal - Misyon ***/
-    section.misyon {
-        margin-top: 50px;
-    }
-    .mission-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
     /*** Arabuluculuk Nedir ***/
     .reservation-container {
         margin-right: 20px;
@@ -1053,96 +635,12 @@
         font-size: 20pt;
         padding-bottom: 3px;
     }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .mediator-container h1 {
-        font-size: 20pt;
-        padding-bottom: 3px;
-    }
-    section.mediator {
-        padding-bottom: 20px;
-    }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container.clearfix {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .mediator-when-container h1 {
-        font-size: 19pt;
-        padding-bottom: 3px;
-    }
-    section.mediator-when {
-        padding-bottom: 20px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .process-desc h1 {
-        font-size: 18pt;
-        padding-bottom: 3px;
-    }
-    .process-desc h2 {
-        font-size: 16pt;
-    }
-    /*** Anlaşma Sağlanmasının Hukuki Sonucu Nedir ***/
-    .law-container {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .law-container h1 {
-        font-size: 20pt;
-        padding-bottom: 3px;
-    }
-    section.law {
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    /*** Başarısız Olunurs nE oLUR ***/
-    .result-container.clearfix {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .result-container h1 {
-        font-size: 18pt;
-    }
-    section.result {
-       padding-bottom: 20px;
-       margin-bottom: 50px;
-    }
-    /*** Ekibimiz ***/
-    section.hakkimizda-ekibimiz .title {
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 25pt;
-    }
-    .team-slider {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .team-slider1 {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    section.hakkimizda-ekibimiz h1 {
-        font-size: 20pt;
-    }
-    #team-slider1 .item .line {
-        margin-left: 30px;
-    }
-    section.hakkimizda-ekibimiz {
-        margin-bottom: 50px;
-    }
-    /*** Uzmanlık Alanlarımız ***/
+    /*** Books Slider ***/
     .services-container {
         margin-right: 20px;
         margin-left: 20px;
     }
-    section.hizmetler-slider .title {
+    section.bookslider-slider .title {
         font-size: 20pt;
     }
     .services-container .services-desc {

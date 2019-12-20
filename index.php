@@ -46,14 +46,14 @@ $pagenum=1; ?>
   </header>
        
 
-       <div class="expertise-line"></div>
-        <div class="expertise-title">
+       <div class="readbooks-line"></div>
+        <div class="readbooks-title">
             Most Read Books
         </div>
         <!-- most read books -->
         
         <section class="books">         
-            <div class="expertise-slider">
+            <div class="readbooks-slider">
             <div class="owl-carousel owl-theme" id="subject">
                     
                 <?php
@@ -91,8 +91,8 @@ while($satir=mysqli_fetch_array($sql))
             <div class="end-line"></div>
         </section>
 
-        <!-- Tespit -->
-        <section class="tespit" onscroll="Onscrollfnction();">
+        <!-- counters -->
+        <section class="counters" onscroll="Onscrollfnction();">
             <div class="panel clearfix">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 fixing-image">
                     <img src="assets/img/count.jpeg">
