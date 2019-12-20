@@ -3,22 +3,14 @@
     .logo {
         padding: 20px 0 15px 85px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-desc {
         padding: 20px 50px;
     }
     .reservation-container .reservation-big-title {
         font-size: 40pt;
     }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container p {
-        padding: 30px 50px;
-        max-height: 325px;
-    }
-    .mediator-container h1 {
-        font-size: 40pt;
-    }
-    /*** booksliderimiz - İşçi İşveren Uyuşmazlıkları ***/
+    /*** booksliderimiz ***/
     .services-container .services-desc {
         padding: 20px 50px;
     }
@@ -31,14 +23,6 @@
     /*** Anasayfa - Header ***/
     .logo {
         width: 14%;
-    }
-    /*** Anasayfa - Hakkımızda ***/
-    .about-us-text {
-        padding: 40px 50px;
-    }
-    /*** Anasayfa - Arabuluculuk ***/
-    .reservation-text {
-        padding-top: 30px;
     }
     /*** Anasayfa - Books Slider ***/
     .subject-title {
@@ -76,10 +60,6 @@
     .about-us-container {
         margin-right: 100px;
     }
-    /*** Ne Zaman Arabuluculuğa Gidilir ***/
-    .mediator-when-container h1 {
-        font-size: 30pt;
-    }
     /*** Books Slider ***/
     .services-container {
         margin-right: 100px;
@@ -107,13 +87,6 @@
     #homeSlider .owl-nav [class*=owl-] {
         font-size: 25px;
     }
-    /*** Anasayfa - Hakkımızda ***/
-    .about-us-title {
-        font-size: 40pt;
-    }
-    .about-us-text {
-        padding: 35px 40px;
-    }
     /*** Anasayfa - Books Slider ***/
     .readbooks-title {
         font-size: 35pt;
@@ -132,21 +105,9 @@
     .contact-detail .icon {
         font-size: 22px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
         font-size: 35pt;
-    }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container h1 {
-        font-size: 35pt;
-        padding-bottom: 20px;
-    }
-    .mediator-desc {
-        margin-top: -55px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-desc h1 {
-        font-size: 32pt;
     }
     /*** Books Slider ***/
     .services-container .title {
@@ -185,10 +146,6 @@
         left: 5%;
         bottom: 40%;
     }
-    /*** Anasayfa - Arabuluculuk ***/
-    .reservation-text {
-        padding-top: 15px;
-    }
     /*** Anasayfa - counter ***/
     section.counter {
         margin-top: 100px;
@@ -206,7 +163,7 @@
     .contact-detail p {
         font-size: 10pt;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
         font-size: 30pt;
         padding-bottom: 15px;
@@ -214,23 +171,6 @@
     .reservation-container {
         margin-left: 100px;
         margin-right: 100px;
-    }
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container h1 {
-        font-size: 30pt;
-        padding-bottom: 15px;
-    }
-    .mediator-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .process-desc h2 {
-        font-size: 19pt;
     }
     /*** booksliderimiz ***/
     .services-container .title {
@@ -259,29 +199,8 @@
     li.social-media-line {
         height: 130px;
     }
-    /*** Anasayfa - Hakkımızda ***/
-    .about-us-title {
-        font-size: 35pt;
-    }    
-    .about-us-text {
-        right: 100px;
-        margin-top: 30px;
-    }
     .detail a {
         padding: 1px 7px;
-    }
-    /*** Anasayfa - Arabuluculuk ***/
-    section.arabuluculuk .panel {
-        padding: 0px 20px;
-    }
-    .reservation-title {
-        font-size: 35pt;
-    }
-    .reservation-image {
-        padding-top: 22px;
-    }
-    .reservation-text {
-        padding-right: 10px;
     }
     /*** Anasayfa - counter ***/
     section.counter {
@@ -304,26 +223,9 @@
     .contact-detail {
         margin-top: 15px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         padding-top: 20px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-desc h1 {
-        font-size: 30pt;
-        padding-bottom: 15px;
-    }
-    section.process {
-        margin-top: 100px;
-        padding-top: 20px;
-    }
-    .mediator-when-desc {
-        margin-top: 0px;
-    }
-    .mediator-when-container.clearfix
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;
     }
     /*** Books Slider ***/
     section.bookslider-slider .title {
@@ -429,33 +331,6 @@
     .slider-panel {
         right: 3%;
     }
-    /*** Anasayfa - Hakkımızda ***/
-    .about-us-title {
-        margin-top: 50px;
-        font-size: 30pt;
-    }
-    .about-us-image {
-        padding: 0px;
-        transition: none;
-    }
-    .about-us-image:hover {
-        transform: none;
-    }
-    .about-us-text {
-        position: relative;
-    }
-    .about-us-text {
-        right: 0px;
-        position: relative;
-    }
-    /*** Anasayfa - Arabuluculuk ***/
-    .reservation-title {
-        font-size: 30pt;
-    }
-    .reservation-text {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
     /*** Books Slider ***/
     .readbooks-title {
         font-size: 30pt;
@@ -479,21 +354,11 @@
     .fixing-image:hover {
         transform: none;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         margin-right: 50px;
         margin-left: 50px;
     } 
-    /*** Arabulucu Ne Yapar ***/
-    .mediator-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-container {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
     /*** Books Slider ***/
     .services-container {
         margin-right: 50px;
@@ -528,12 +393,8 @@
 }
 
 @media(max-width:768px) {
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
-        font-size: 25pt;
-    }
-    /*** Arabuluculuk Süreci Nasıl İşler ***/
-    .process-desc h1 {
         font-size: 25pt;
     }
 }
@@ -561,17 +422,9 @@
     section.counter .line {
         margin-top: 50px;
     }
-    /*** Arabuluculuk nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-desc {
         padding: 20px 30px;
-    }
-    /*** Arabuluculuk SüreciNasıl İşler ***/
-    .process-desc {
-        padding: 20px 30px;
-    }
-    /*** İletişim ***/
-    #map {
-        min-height: 200px;
     }
 }
 
@@ -626,7 +479,7 @@
     .fixing-image-title h1 {
         font-size: 17pt;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         margin-right: 20px;
         margin-left: 20px;
