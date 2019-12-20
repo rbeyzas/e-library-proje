@@ -107,9 +107,9 @@ $pagenum=1; ?>
                         <p class="count-text ">Reader</p>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 video">
-                         <!-- <video width="100%" height="auto" controls>
-                           <source type="video/mp4" src="assets/video/video.mp4" allowfullscreen="true"> </source> 
-                        </video>   -->                  
+                         <video width="100%" height="auto" controls>
+                           <source type="video/mp4" src="assets/video/LibraryPomotionalVideo.mp4" allowfullscreen="true"> </source> 
+                        </video>                  
                     </div>
                 </div>
             </div>
