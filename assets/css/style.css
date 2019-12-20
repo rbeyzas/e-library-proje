@@ -76,13 +76,6 @@ img {
     font-weight: 600;
     text-decoration: none;
 }
-
-
-
-
-
-
-
 /*** Anasayfa - Header ***/
 .home-header {
     background: #000000;
@@ -228,9 +221,6 @@ body {
   .intro h1 { font-size: 2.5rem; }
   .intro p { font-size: 1.25rem; }
 }
-
-
-
 /*** home-most read books ***/
 section.books {
     margin-top: 10px;
@@ -240,25 +230,25 @@ section.books:after {
     content: "";
     clear: both;
 }
-.expertise-line {
+.readbooks-line {
     margin-left: 100px;
     background-color: #a7a7a7;
     height: 1px;
     width: 550px;
     margin-top: 100px;
 }
-.expertise-title {
+.readbooks-title {
     color: #a7a7a7;
     font-family: "Palanquin-Thin";
     font-size: 45pt;
     padding-left: 400px;
 }
-.expertise-slider {
+.readbooks-slider {
     margin: 40px 0px 100px 0px;
     background-color: #181818;
     padding: 0px 50px;
 }
-.expertise-slider .item {
+.readbooks-slider .item {
     margin: 25px 0px;
 }
 #subject .owl-nav.disabled {
@@ -323,20 +313,18 @@ section.books:after {
     float: right;
     margin-right: 200px;
 }
-
-
 /*** home - counter ***/
-section.tespit {
+section.counters {
     background-color: #181818;
     margin: 150px 0px 200px 0px;
     padding: 40px 0;
 }
-section.tespit:after {
+section.counters:after {
     display: block;
     content: "";
     clear: both;
 }
-section.tespit .panel {
+section.counters .panel {
     padding: 0px 100px;
     background-color: #282828;
     box-shadow: 0px 10px 14px #060606;
@@ -380,15 +368,13 @@ section.tespit .panel {
     color: #a8a8a8;
     text-align: justify;
 }
-section.tespit .line {
+section.counters .line {
     width: 30%;
     height: 1px;
     background-color: #a7a7a7;
     margin-top: 100px;
     margin-left: 200px;
 }
-
-
 /*** home - Footer ***/
 section.iletisim {
     background: black;
@@ -446,7 +432,6 @@ section.iletisim:after {
     color: #ffffff;
     font-family: "OpenSans";
 }
-
 /*** make a reservation - Header ***/
 .header {
     width: 100%;
@@ -456,7 +441,6 @@ section.iletisim:after {
     opacity: 1;
     z-index: 2;
 }
-
 /*** Make a reservation ***/
 section.reservation {
     background-color: #181818;
@@ -492,50 +476,11 @@ section.reservation:after {
     font-size: 10pt;
     font-family: "Palanquin-Regular";
 }
-
-/*** Ne Zaman Arabuluculuğa Gidilir ***/
-section.mediator-when {
-    background-color: #181818;
-    margin-top: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-section.mediator-when:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-.mediator-when-container {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.mediator-when-container h1 {
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-family: "Palanquin-Thin";
-    padding-bottom: 25px;
-    border-bottom: 1px solid #a9a9a9;
-    font-size: 40pt;
-}
-.mediator-when-container p {
-    box-shadow: 11px 11px 14px #060606;
-    background-color: #282828;
-    padding: 30px 80px;
-    margin-top: 10px;
-    line-height: 30px;
-    text-align: justify;
-    color: #a9a9a9;
-    font-size: 10pt;
-    font-family: "Palanquin-Regular";
-}
-
-
-/*** Uzmanlık Alanlarımız - Slider ***/
-section.hizmetler-slider {
+/*** Books Slider - Slider ***/
+section.bookslider-slider {
     background-color: #181818;
 }
-section.hizmetler-slider:after {
+section.bookslider-slider:after {
     content: "";
     clear: both;
     display: block;
@@ -621,8 +566,6 @@ section.books4:after {
     clear: both;
     display: block;
 }
-
-
 /*** Contact ***/
 section.iletisim-page {
     margin-right: 100px;
