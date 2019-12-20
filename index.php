@@ -46,22 +46,22 @@ $pagenum=1; ?>
   </header>
        
 
-       <div class="readbooks-line"></div>
-        <div class="readbooks-title">
+       <div class="expertise-line"></div>
+        <div class="expertise-title">
             Most Read Books
         </div>
         <!-- most read books -->
         
         <section class="books">         
-            <div class="readbooks-slider">
+            <div class="expertise-slider">
             <div class="owl-carousel owl-theme" id="subject">
                     
                 <?php
 
                     $cat_id=5;
-                $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
-while($satir=mysqli_fetch_array($sql))
-{ ?>
+                    $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                    while($satir=mysqli_fetch_array($sql))
+                    { ?>
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
                             <img src="<?=$satir["book_image"]?>">
@@ -76,7 +76,7 @@ while($satir=mysqli_fetch_array($sql))
 
                             </div>  
                             <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>">Make a Reservation</a></button>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
                             </div>   
                                     
                         </div>
@@ -91,8 +91,8 @@ while($satir=mysqli_fetch_array($sql))
             <div class="end-line"></div>
         </section>
 
-        <!-- counters -->
-        <section class="counters" onscroll="Onscrollfnction();">
+        <!-- Tespit -->
+        <section class="tespit" onscroll="Onscrollfnction();">
             <div class="panel clearfix">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 fixing-image">
                     <img src="assets/img/count.jpeg">

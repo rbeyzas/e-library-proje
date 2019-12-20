@@ -1,5 +1,5 @@
 <html lang="tr">
-<?php $pagenum=5; 
+<?php  
     require_once("inc/connect.php");
 ?>
     <head>
@@ -31,14 +31,14 @@
         </div>
 
 <!--End Navbar-->
-<div class="readbooks-line"></div>
-        <div class="readbooks-title">
+<div class="expertise-line"></div>
+        <div class="expertise-title">
             Science Fiction-Fantastic Books
         </div>
 <!-- most read books -->
         
 <section class="books">         
-            <div class="readbooks-slider">
+            <div class="expertise-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                 <?php
 $cat_id=2;
@@ -59,7 +59,7 @@ while($satir=mysqli_fetch_array($sql))
 
                             </div>  
                             <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>">Make a Reservation</a></button>
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
                             </div>   
                                     
                         </div>

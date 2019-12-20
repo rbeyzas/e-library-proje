@@ -3,9 +3,11 @@
 
 $pagenum=3; 
 
-$bookid=@$_GET["id"];
 
+$bookid=@$_GET["id"];
+$bookname=@$_GET["bookname"];
 if($bookid){
+    
     $rezervebook;
     $counter=0;
     $sql = mysqli_query($conn, "select * from books where book_id='$bookid' ");
@@ -26,6 +28,7 @@ if($bookid){
     header("Location: index.php");
     exit();    
 }
+
 
 
 ?>
@@ -55,7 +58,7 @@ if($bookid){
         <section class="reservation" id="reservation">
             <div class="reservation-container">
                 <div class="col-md-12 reservation-big-title">
-                    Rezervasyon Nasıl Yapılır?
+                    Reservation
                 </div>
                 <div class="col-md-12 reservation-desc">     
                 <div class="col-lg-6 intro_col">
@@ -71,9 +74,9 @@ if($bookid){
 
                             <?php
     if($_POST){
-
+        
         if($_POST['name'] && $_POST['date'] && $_POST['email']){
-            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].")";
+            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
             if (mysqli_query($conn, $sql)) {    
                   echo "Kayıt gerçekleştirildi!";
             } else {
