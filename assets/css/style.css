@@ -77,12 +77,6 @@ img {
     text-decoration: none;
 }
 
-
-
-
-
-
-
 /*** Anasayfa - Header ***/
 .home-header {
     background: #000000;
@@ -240,25 +234,25 @@ section.books:after {
     content: "";
     clear: both;
 }
-.expertise-line {
+.readbooks-line {
     margin-left: 100px;
     background-color: #a7a7a7;
     height: 1px;
     width: 550px;
     margin-top: 100px;
 }
-.expertise-title {
+.readbooks-title {
     color: #a7a7a7;
     font-family: "Palanquin-Thin";
     font-size: 45pt;
     padding-left: 400px;
 }
-.expertise-slider {
+.readbooks-slider {
     margin: 40px 0px 100px 0px;
     background-color: #181818;
     padding: 0px 50px;
 }
-.expertise-slider .item {
+.readbooks-slider .item {
     margin: 25px 0px;
 }
 #subject .owl-nav.disabled {
@@ -326,17 +320,17 @@ section.books:after {
 
 
 /*** home - counter ***/
-section.tespit {
+section.counters {
     background-color: #181818;
     margin: 150px 0px 200px 0px;
     padding: 40px 0;
 }
-section.tespit:after {
+section.counters:after {
     display: block;
     content: "";
     clear: both;
 }
-section.tespit .panel {
+section.counters .panel {
     padding: 0px 100px;
     background-color: #282828;
     box-shadow: 0px 10px 14px #060606;
@@ -380,7 +374,7 @@ section.tespit .panel {
     color: #a8a8a8;
     text-align: justify;
 }
-section.tespit .line {
+section.counters .line {
     width: 30%;
     height: 1px;
     background-color: #a7a7a7;

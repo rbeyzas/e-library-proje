@@ -7,7 +7,7 @@
     .mission-desc {
         max-height: 550px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-desc {
         padding: 20px 50px;
     }
@@ -174,7 +174,7 @@
         font-size: 9pt;
     }
     /*** Anasayfa - Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    .readbooks-title {
         font-size: 35pt;
     }
     .desc {
@@ -202,7 +202,7 @@
     .mission-desc {
         max-height: 490px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
         font-size: 35pt;
     }
@@ -313,7 +313,7 @@
     .vision-galery .col-lg-7 img {
         padding-top: 50px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
         font-size: 30pt;
         padding-bottom: 15px;
@@ -487,7 +487,7 @@
         display: block;
         margin-top: 25px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         padding-top: 20px;
     }
@@ -731,10 +731,10 @@
         max-height: 500px;
     }
     /*** Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    .readbooks-title {
         font-size: 30pt;
     }
-    .expertise-slider {
+    .readbooks-slider {
         margin: 40px 0px 50px 0px;
     }
     .subject-image {
@@ -786,7 +786,7 @@
     .vision-galery .col-lg-7 img:hover {
         transform: none;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         margin-right: 50px;
         margin-left: 50px;
@@ -874,7 +874,7 @@
    .about-us-text {
         padding: 10px 20px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-big-title {
         font-size: 25pt;
     }
@@ -898,7 +898,7 @@
 
 @media(max-width:736px) {
     /*** Anasayfa -Uzmanlık Alanlarımız ***/
-    .expertise-title {
+    .readbooks-title {
         padding-left: 350px;
     } 
     .subject-desc {
@@ -919,7 +919,7 @@
     section.counter .line {
         margin-top: 50px;
     }
-    /*** Arabuluculuk nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container .reservation-desc {
         padding: 20px 30px;
     }
@@ -1005,15 +1005,15 @@
         right: 0px;
     }
     /*** Anasayfa - Uzmanlık Alanlarımız ***/
-    .expertise-line {
+    .readbooks-line {
         margin-left: 10px;
         width: 200px;
     }
-    .expertise-title {
+    .readbooks-title {
         padding-left: 50px;
         font-size: 25pt;
     }
-    .expertise-slider {
+    .readbooks-slider {
         padding: 0px 20px;
     }
     /*** Anasayfa - counter ***/
@@ -1044,7 +1044,7 @@
         margin-right: 20px;
         margin-left: 20px;
     }
-    /*** Arabuluculuk Nedir ***/
+    /*** Rezervasyon Yap ***/
     .reservation-container {
         margin-right: 20px;
         margin-left: 20px;
