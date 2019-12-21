@@ -79,6 +79,10 @@
   }
   .contact-panel .phone-numbers,
   .contact-panel .email,
+<<<<<<< HEAD
+=======
+  .contact-panel .fax,
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
   .contact-panel .address {
     margin-top: 15px;
   }
@@ -86,6 +90,10 @@
     font-size: 11pt;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 @media (max-width: 1280px) {
   /*** Home - Slider ***/
   .slider-text {
@@ -119,6 +127,10 @@
     margin-right: 100px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 @media (max-width: 1024px) {
   /*** Home - Header ***/
   .logo {
@@ -263,6 +275,10 @@
     font-size: 25pt;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 @media (max-width: 736px) {
   /*** Home - counter ***/
   .fixing-title {
@@ -279,6 +295,7 @@
   #map {
     min-height: 200px;
   }
+<<<<<<< HEAD
 }
 @media (max-width: 425px) {
   /*** Home - Header ***/
@@ -337,3 +354,67 @@
     display: none;
   }
 }
+=======
+}
+
+@media (max-width: 425px) {
+  /*** Home - Header ***/
+  .logo {
+    padding: 10px 0px 10px 10px;
+    width: 18%;
+  }
+  button.toggle-nav {
+    font-size: 20pt;
+  }
+  /*** Home - Slider ***/
+  .slider-text {
+    bottom: 10%;
+  }
+  .slider-text h1 {
+    font-size: 11pt;
+  }
+  .social-media {
+    display: none;
+  }
+  #homeSlider .owl-nav.disabled {
+    right: 4%;
+    bottom: 12%;
+  }
+  #homeSlider .owl-nav [class*="owl-"] {
+    font-size: 20px;
+  }
+  .slider:after {
+    height: 5px;
+  }
+  /*** Home - counter ***/
+  section.counter .panel {
+    padding: 0px 20px;
+  }
+  .fixing-image-title {
+    font-size: 17pt;
+  }
+  .fixing-image-title h1 {
+    font-size: 17pt;
+  }
+  /*** Make Reservation ***/
+  .reservation-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .reservation-container .reservation-big-title {
+    font-size: 20pt;
+    padding-bottom: 3px;
+  }
+  /*** Contact ***/
+  section.iletisim-page {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .contact-panel {
+    position: relative;
+  }
+  .contact-image {
+    display: none;
+  }
+}
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a

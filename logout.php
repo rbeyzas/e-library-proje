@@ -1,4 +1,7 @@
-<?php require_once("inc/connect.php"); 
+<?php
+//This php line code draw data in connect.php.
+ require_once("inc/connect.php");
+    //if user want to log out, this code sent to signin.php and delete cookie information.
      if(@$_COOKIE["giris"]=='1'){
         $zaman=(86400 * 30);
 

@@ -1,5 +1,6 @@
 <html lang="tr">
 <?php  
+//This php line code draw data in connect.php.
     require_once("inc/connect.php");
 ?>
     <head>
@@ -27,6 +28,7 @@
         <!--Navbar-->
         <!-- Header -->
         <div class="home-header">
+        <!--This php line code draw data in header.php.-->
         <?php include("theme/header.php"); ?>
         </div>
         <!-- End Header -->
@@ -37,6 +39,7 @@
                 </div>
         <!-- Science Fiction- Fantastic Books -->
         
+<<<<<<< HEAD
                 <section class="books">         
                     <div class="readbooks-slider">
                         <div class="owl-carousel owl-theme" id="subject">
@@ -64,10 +67,51 @@
                                             
                                 </div>
                             </div>
+=======
+<section class="books">         
+            <div class="readbooks-slider">
+                <div class="owl-carousel owl-theme" id="subject">
+<<<<<<< HEAD
+                <?php 
+                $cat_id=2;
+                //This code send query to database and show book when cat_id=2 in database.
+                $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                while($satir=mysqli_fetch_array($sql))
+                { ?>
+                    <!-- Php embedded in these lines is draw data about book information in database -->
+=======
+                <?php
+                    $cat_id=2;
+                    $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                    while($satir=mysqli_fetch_array($sql))
+                { ?>
+>>>>>>> f1210f855b0015e64315cc62e76956c95ab1fcc3
+                    <div class="item">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                            <img src="<?=$satir["book_image"]?>">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                            <div class="subject-title">
+                            <?=$satir["book_name"]?><br>
+                            </div>
+                            <div class="desc">
+                                <p><b>Author:<?=$satir["book_author"]?></b></p>
+                                <?=$satir["book_desc"]?>
+
+                            </div>  
+                            <div>
+                            <!-- This code keep information about bookid and bookname and send information when click button to reservation.php. -->
+                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
+                            </div>   
+                                    
+                        </div>
+                    </div>
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 
                 
                     <?php }
 
+<<<<<<< HEAD
                     ?>                
             
                         </div> 
@@ -75,6 +119,15 @@
                     <div class="end-line"></div>
                 </section>
             <!-- End Science Fiction- Fantastic Books -->
+=======
+?>                
+    
+                </div> 
+            </div>  
+            <div class="end-line"></div>
+        </section>
+
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
         <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">

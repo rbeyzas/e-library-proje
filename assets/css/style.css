@@ -490,7 +490,11 @@ section.reservation:after {
   font-family: "Palanquin-Regular";
 }
 
+<<<<<<< HEAD
 /*** Most Read Books - Slider ***/
+=======
+/*** Uzmanlık Alanlarımız - Slider ***/
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 section.hizmetler-slider {
   background-color: #181818;
 }
@@ -518,7 +522,11 @@ section.hizmetler-slider:after {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 /*** Books - 1 ***/
+=======
+/*** books - 1 ***/
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 section.books1 {
   margin-top: 100px;
   background-color: #181818;
@@ -538,7 +546,11 @@ section.books1:after {
   margin-top: -80px;
 }
 
+<<<<<<< HEAD
 /*** Books - 2 ***/
+=======
+/*** books - 2 ***/
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 section.books2 {
   margin-top: 300px;
   background-color: #181818;
@@ -554,7 +566,11 @@ section.books2:after {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 /*** Books- 3 ***/
+=======
+/*** books- 3 ***/
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 section.books3 {
   margin-top: 200px;
   background-color: #181818;
@@ -565,7 +581,11 @@ section.books3:after {
   display: block;
 }
 
+<<<<<<< HEAD
 /*** Books - 4 ***/
+=======
+/*** books - 4 ***/
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
 section.books4 {
   margin-top: 200px;
   margin-bottom: 100px;
