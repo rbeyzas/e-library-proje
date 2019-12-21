@@ -12,7 +12,7 @@
                         <a <?php if($pagenum==1) { ?>style="color:#fec200;box-shadow: 0px 3px 0px #fec200;" <?php } ?> href="index.php">Home</a>
                     </li>
                     <li>
-                       <button onclick="dropDownClick()" class="dropbtn" style="color:#fec200;box-shadow: 0px 3px 0px #fec200;"> <?php if($pagenum==2) { ?><?php } ?> All Books</a> </button>
+                       <button onclick="dropDownClick()" class="dropbtn" > <?php if($pagenum==2) { ?><?php } ?> All Books </button>
                        <div id="dropDown" class="dropdown-content">
                        <a href="childrenbooks.php">Children Books</a>
                        <a href="sciencefiction-fantasticbooks.php">Science Fiction-Fantastic Books</a>
@@ -27,20 +27,20 @@
                         <a <?php if($pagenum==4) { ?>style="color:#fec200;box-shadow: 0px 3px 0px #fec200;" <?php } ?> href="contact.php">Contact</a>
                     </li>
                     <li>
-<?php
+            <?php
 
-if(@$_COOKIE["giris"]=="1"){
-    echo "Welcome to <u>".@$_COOKIE['kid']."!</u>";
-    echo ' <a href="logout.php">Log out</a>';
-}else{?>
-                   <button type="button" class="btn btn-danger"><a href="signin.php">Sign In</a></button>
-                    </li>
-                    <li>
-                   <button type="button" class="btn btn-danger"><a href="signup.php">Sign Up</a></button>
-<?php }
-?>
+            if(@$_COOKIE["giris"]=="1"){
+                echo "Welcome to <u>".@$_COOKIE['kid']."!</u>";
+                echo ' <a href="logout.php">Log out</a>';
+            }else{?>
+                            <button type="button" class="btn btn-danger"><a href="signin.php">Sign In</a></button>
+                                </li>
+                                <li>
+                            <button type="button" class="btn btn-danger"><a href="signup.php">Sign Up</a></button>
+            <?php }
+            ?>
 
-                    </li>
-                   
-                </ul>
-            </div>
+                                </li>
+                            
+                            </ul>
+                        </div>

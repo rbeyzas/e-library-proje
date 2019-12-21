@@ -56,8 +56,8 @@ if(@$_COOKIE["giris"]=="1"){
             <div class="col-md-6 form-group">
               <a href="signup.php"><input type="button" class="btnSubmit" value="Sign up" name="signup" /></a>
             </div>
-            <div class="form-group">
-              <a href="#" class="ForgetPwd">Forget Password?</a>
+            <div class="col-md-6 form-group">
+              <a href="index.php"><input type="button" class="btnSubmit" value="Home" name="home"/></a>
             </div>
             <?php
 

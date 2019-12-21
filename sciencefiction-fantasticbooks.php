@@ -29,56 +29,56 @@
         <div class="home-header">
         <?php include("theme/header.php"); ?>
         </div>
-
-<!--End Navbar-->
-<div class="readbooks-line"></div>
-        <div class="readbooks-title">
-            Science Fiction-Fantastic Books
-        </div>
-<!-- most read books -->
+        <!-- End Header -->
+        <!--End Navbar-->
+        <div class="readbooks-line"></div>
+                <div class="readbooks-title">
+                    Science Fiction-Fantastic Books
+                </div>
+        <!-- Science Fiction- Fantastic Books -->
         
-<section class="books">         
-            <div class="readbooks-slider">
-                <div class="owl-carousel owl-theme" id="subject">
-                <?php
-$cat_id=2;
-$sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
-while($satir=mysqli_fetch_array($sql))
-{ ?>
-                    <div class="item">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
-                            <img src="<?=$satir["book_image"]?>">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
-                            <div class="subject-title">
-                            <?=$satir["book_name"]?><br>
+                <section class="books">         
+                    <div class="readbooks-slider">
+                        <div class="owl-carousel owl-theme" id="subject">
+                        <?php
+                            $cat_id=2;
+                            $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                            while($satir=mysqli_fetch_array($sql))
+                        { ?>
+                            <div class="item">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
+                                    <img src="<?=$satir["book_image"]?>">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-desc">                                           
+                                    <div class="subject-title">
+                                    <?=$satir["book_name"]?><br>
+                                    </div>
+                                    <div class="desc">
+                                        <p><b>Author:<?=$satir["book_author"]?></b></p>
+                                        <?=$satir["book_desc"]?>
+
+                                    </div>  
+                                    <div>
+                                    <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
+                                    </div>   
+                                            
+                                </div>
                             </div>
-                            <div class="desc">
-                                <p><b>Author:<?=$satir["book_author"]?></b></p>
-                                <?=$satir["book_desc"]?>
 
-                            </div>  
-                            <div>
-                            <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
-                            </div>   
-                                    
-                        </div>
-                    </div>
+                
+                    <?php }
 
-           
-<?php }
-
-?>                
-    
-                </div> 
-            </div>  
-            <div class="end-line"></div>
-        </section>
-
-        <!-- İletişim -->
+                    ?>                
+            
+                        </div> 
+                    </div>  
+                    <div class="end-line"></div>
+                </section>
+            <!-- End Science Fiction- Fantastic Books -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -131,7 +131,7 @@ while($satir=mysqli_fetch_array($sql))
                 </ul>
             </div>
         </section>
-
+        <!-- End Contact -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>

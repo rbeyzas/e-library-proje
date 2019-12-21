@@ -29,15 +29,15 @@
         <div class="home-header">
         <?php include("theme/header.php"); ?>
         </div>
-
-<!--End Navbar-->
-<div class="readbooks-line"></div>
-        <div class="readbooks-title">
+        <!-- End Header -->
+        <!--End Navbar-->
+        <div class="readbooks-line"></div>
+            <div class="readbooks-title">
             Children Books
-        </div>
-<!-- most read books -->
+            </div>
+        <!-- Children Books -->
         
-<section class="books">         
+        <section class="books">         
             <div class="readbooks-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                 <?php
@@ -64,23 +64,23 @@
                                     
                         </div>
                     </div>
-
+        <!-- End Children Books -->
                     
 
            
-<?php }
+            <?php }
 
-?>
+            ?>
                 </div> 
 
             </div>  
             <div class="end-line"></div>
         </section>
 
-        <!-- İletişim -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -133,7 +133,7 @@
                 </ul>
             </div>
         </section>
-
+        <!-- End Contact -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>

@@ -29,22 +29,22 @@
         <div class="home-header">
         <?php include("theme/header.php"); ?>
         </div>
-
-<!--End Navbar-->
+        <!-- End Header -->
+        <!--End Navbar-->
 <div class="readbooks-line"></div>
         <div class="readbooks-title">
             Horror Thriller Books
         </div>
-<!-- most read books -->
+<!-- Horror Thriller Books -->
         
-<section class="books">         
-            <div class="readbooks-slider">
-                <div class="owl-carousel owl-theme" id="subject">
-                <?php
-$cat_id=3;
-$sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
-while($satir=mysqli_fetch_array($sql))
-{ ?>
+        <section class="books">         
+                    <div class="readbooks-slider">
+                        <div class="owl-carousel owl-theme" id="subject">
+                        <?php
+        $cat_id=3;
+        $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+        while($satir=mysqli_fetch_array($sql))
+        { ?>
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
                             <img src="<?=$satir["book_image"]?>">
@@ -66,19 +66,19 @@ while($satir=mysqli_fetch_array($sql))
                     </div>
 
            
-<?php }
+                <?php }
 
-?>                
+                ?>                
     
                 </div> 
             </div>  
             <div class="end-line"></div>
         </section>
-
-        <!-- İletişim -->
+        <!-- End Horror Thriller Books -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -131,7 +131,7 @@ while($satir=mysqli_fetch_array($sql))
                 </ul>
             </div>
         </section>
-
+        <!-- End Contact -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
