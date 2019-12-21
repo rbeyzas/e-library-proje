@@ -8,6 +8,7 @@
             </div>                                       
             <div class="nav">
                 <ul>
+                 <!-- Php embedded in these lines is refers to send according to link for example if pagenum 1 php sent to index.php -->
                     <li>
                         <a <?php if($pagenum==1) { ?>style="color:#fec200;box-shadow: 0px 3px 0px #fec200;" <?php } ?> href="index.php">Home</a>
                     </li>
@@ -27,6 +28,10 @@
                         <a <?php if($pagenum==4) { ?>style="color:#fec200;box-shadow: 0px 3px 0px #fec200;" <?php } ?> href="contact.php">Contact</a>
                     </li>
                     <li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c5c0388552049d2ccdf78687f112e51f9e17e924
             <?php
 
             if(@$_COOKIE["giris"]=="1"){
@@ -39,6 +44,24 @@
                             <button type="button" class="btn btn-danger"><a href="signup.php">Sign Up</a></button>
             <?php }
             ?>
+<<<<<<< HEAD
+=======
+=======
+                    
+                    <?php
+                    //This cookie keep to login information and show user name instead of sign in and sign up buttons. And then code show user id with welcome to... .
+                    if(@$_COOKIE["giris"]=="1"){
+                        echo "Welcome to <u>".@$_COOKIE['kid']."!</u>";
+                        echo ' <a href="logout.php">Log out</a>';
+                    }else{?>
+                   <button type="button" class="btn btn-danger"><a href="signin.php">Sign In</a></button>
+                    </li>
+                    <li>
+                   <button type="button" class="btn btn-danger"><a href="signup.php">Sign Up</a></button>
+                    <?php }
+                    ?>
+>>>>>>> 7350bd008e19d80cbe6826a59d76ca2534e71c1a
+>>>>>>> c5c0388552049d2ccdf78687f112e51f9e17e924
 
                                 </li>
                             

@@ -1,5 +1,7 @@
 <html lang="tr">
-<?php require_once("inc/connect.php"); 
+
+<?php//This php line code draw data in connect.php.
+ require_once("inc/connect.php"); 
 $pagenum=1; ?>
     <head>
         <meta charset="utf-8">
@@ -26,6 +28,7 @@ $pagenum=1; ?>
         <!--Navbar-->
         <!-- Header -->
         <div class="home-header">
+        <!--This php line code draw data in header.php.-->
         <?php include("theme/header.php"); ?>
         </div>
         <!-- End Header -->
@@ -59,9 +62,11 @@ $pagenum=1; ?>
                 <?php
 
                     $cat_id=5;
+                    //This code send query to database and show book when cat_id=5 in database.
                     $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
                     while($satir=mysqli_fetch_array($sql))
                     { ?>
+                    <!-- Php embedded in these lines is draw data about book information in database -->
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
                             <img src="<?=$satir["book_image"]?>">
@@ -76,6 +81,7 @@ $pagenum=1; ?>
 
                             </div>  
                             <div>
+                            <!-- This code keep information about bookid and bookname and send information when click button to reservation.php. -->
                             <button type="button" class="btn btn-warning"><a href="reservation.php?id=<?=$satir["book_id"]?>&bookname=<?=$satir["book_name"]?>">Make a Reservation</a></button>
                             </div>   
                                     

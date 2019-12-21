@@ -20,6 +20,7 @@
         <!--Navbar-->
         <!-- Header -->
         <div class="header">
+        <!--This php line code draw data in header.php.-->
         <?php include("theme/header.php"); ?>
         </div>
         </div>
