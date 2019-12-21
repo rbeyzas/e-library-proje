@@ -54,16 +54,22 @@ if($bookid){
         <?php include("theme/header.php"); ?>
         </div>
 
-        <!-- Rezervasyon nasıl yapılır -->
+        <!-- Make A Reservation -->
         <section class="reservation" id="reservation">
             <div class="reservation-container">
                 <div class="col-md-12 reservation-big-title">
-                    Reservation
+                    Make A Reservation
                 </div>
                 <div class="col-md-12 reservation-desc">     
                 <div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
-						<div class="intro_form_title"><em>Rezervasyon yap</em> </div>
+                        <p>-Once you have selected the book you want to book, you will be redirected to this page.</p>
+                        <p>-You have to fill in the name e-mail and date</p>
+                        <p>-If you do not fill in these fields, your reservation request will not be made!</p>
+                        <p>-The date section indicates how long you will keep the book</p>
+                        <p>-Please deliver the book on time!</p>
+                        <p>Enjoyable readings!</p>
+						<div class="intro_form_title">Make A Reservation</div>
 						<form action="" method="post" class="intro_form" id="intro_form">
 							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
 								<input type="text" name="name" class="intro_input" placeholder="İsim"  value="<?=@$_COOKIE['kid']?>">
@@ -73,38 +79,38 @@ if($bookid){
                             <input type="submit" value="Rezervasyon Yap" name="signup"/>
 
                             <?php
-    if($_POST){
-        
-        if($_POST['name'] && $_POST['date'] && $_POST['email']){
-            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
-            if (mysqli_query($conn, $sql)) {    
-                  echo "Kayıt gerçekleştirildi!";
-            } else {
-                  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-            mysqli_close($conn);  
-        }else{
+                                if($_POST){
+                                    
+                                    if($_POST['name'] && $_POST['date'] && $_POST['email']){
+                                        $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
+                                        if (mysqli_query($conn, $sql)) {    
+                                            echo "Kayıt gerçekleştirildi!";
+                                        } else {
+                                            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                                        }
+                                        mysqli_close($conn);  
+                                    }else{
 
-        echo "Lütfen tüm alanları doldurunuz!"; 
+                                    echo "Lütfen tüm alanları doldurunuz!"; 
 
-        }
+                                    }
 
-    
-    }
-      
+                                
+                                }
+                                
 
-?>
+                            ?>
 						</form>
 					</div>
 				</div>
                 </div>                        
             </div>
         </section>
-
-        <!-- İletişim -->
+        <!-- End Make A Reservation -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -157,70 +163,15 @@ if($bookid){
                 </ul>
             </div>
         </section>
-
+        <!-- End Contact -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/jquery.nicescroll.min.js"></script>
         <script src="assets/js/custom.js"></script>
-        <script>
-        	function clickEvent(loc) {
-                var offset=$("." + loc).position().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }   
-        </script>
+        
 
-        <script>
-            var hash=window.location.hash;
-            if (hash == "#reservation") {
-                var offset=$("#reservation").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#mediator") {
-                var offset=$("#mediator").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#mediator-when") {
-                var offset=$("#mediator-when").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#process") {
-                var offset=$("#process").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#law") {
-                var offset=$("#law").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#result") {
-                var offset=$("#result").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-        </script>
+        
     </body>
 </html>

@@ -28,8 +28,8 @@ $pagenum=1; ?>
         <div class="home-header">
         <?php include("theme/header.php"); ?>
         </div>
-
-<!--End Navbar-->
+        <!-- End Header -->
+        <!--End Navbar-->
         <!-- Slider -->
         <header class="intro">
     <div class="intro-slideshow">
@@ -50,7 +50,7 @@ $pagenum=1; ?>
         <div class="readbooks-title">
             Most Read Books
         </div>
-        <!-- most read books -->
+        <!-- Most Read Books -->
         
         <section class="books">         
             <div class="readbooks-slider">
@@ -83,15 +83,15 @@ $pagenum=1; ?>
                     </div>
 
            
-<?php }
+        <?php }
 
-?>  
-                </div> 
-            </div>  
-            <div class="end-line"></div>
-        </section>
-
-        <!-- counters -->
+        ?>  
+                        </div> 
+                    </div>  
+                    <div class="end-line"></div>
+                </section>
+        <!-- End Most Read Books -->
+        <!-- Counters -->
         <section class="counters" onscroll="Onscrollfnction();">
             <div class="panel clearfix">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 fixing-image">
@@ -115,12 +115,12 @@ $pagenum=1; ?>
             </div>
             <div class="line"></div>
         </section>  
-
-        <!-- İletişim -->
+        <!-- End Counters -->
+        <!-- Contact -->
         
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -173,9 +173,8 @@ $pagenum=1; ?>
                 </ul>
             </div>
         </section>
-        
+        <!-- End Contact -->
      
-        
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>

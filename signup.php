@@ -61,7 +61,7 @@ if(@$_COOKIE["giris"]=="1"){
                             $password2=$_POST["password2"];
                             $mail=$_POST["mail"];
 
-                            /* Eposta ve kullanıcı adı kontrol alanı */
+                            /* Email and username control field */
                             $sql = mysqli_query($conn, "select count(*) as kulvar from users where user_kid='$user' or user_email='$mail' ");
                             while($satir=mysqli_fetch_array($sql))
                             {
@@ -87,17 +87,11 @@ if(@$_COOKIE["giris"]=="1"){
                                     }
                                     mysqli_close($conn);        
                                 }
-
-                                
-
                             }
-
-
-                 
                         }
 
 
-?>                            
+                    ?>                            
                     </form>
                 </div>
             </div>
