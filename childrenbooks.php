@@ -80,7 +80,7 @@
         <!-- İletişim -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">

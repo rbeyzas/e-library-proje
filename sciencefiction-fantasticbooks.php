@@ -41,10 +41,10 @@
             <div class="readbooks-slider">
                 <div class="owl-carousel owl-theme" id="subject">
                 <?php
-$cat_id=2;
-$sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
-while($satir=mysqli_fetch_array($sql))
-{ ?>
+                    $cat_id=2;
+                    $sql = mysqli_query($conn, "select * from books where book_cat='$cat_id' ");
+                    while($satir=mysqli_fetch_array($sql))
+                { ?>
                     <div class="item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 subject-image">
                             <img src="<?=$satir["book_image"]?>">
@@ -75,10 +75,10 @@ while($satir=mysqli_fetch_array($sql))
             <div class="end-line"></div>
         </section>
 
-        <!-- İletişim -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">

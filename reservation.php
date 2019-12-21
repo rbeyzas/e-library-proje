@@ -54,7 +54,7 @@ if($bookid){
         <?php include("theme/header.php"); ?>
         </div>
 
-        <!-- Rezervasyon nasıl yapılır -->
+        <!-- Make A Reservation -->
         <section class="reservation" id="reservation">
             <div class="reservation-container">
                 <div class="col-md-12 reservation-big-title">
@@ -73,27 +73,27 @@ if($bookid){
                             <input type="submit" value="Rezervasyon Yap" name="signup"/>
 
                             <?php
-    if($_POST){
-        
-        if($_POST['name'] && $_POST['date'] && $_POST['email']){
-            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
-            if (mysqli_query($conn, $sql)) {    
-                  echo "Kayıt gerçekleştirildi!";
-            } else {
-                  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-            mysqli_close($conn);  
-        }else{
+                                if($_POST){
+                                    
+                                    if($_POST['name'] && $_POST['date'] && $_POST['email']){
+                                        $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
+                                        if (mysqli_query($conn, $sql)) {    
+                                            echo "Kayıt gerçekleştirildi!";
+                                        } else {
+                                            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                                        }
+                                        mysqli_close($conn);  
+                                    }else{
 
-        echo "Lütfen tüm alanları doldurunuz!"; 
+                                    echo "Lütfen tüm alanları doldurunuz!"; 
 
-        }
+                                    }
 
-    
-    }
-      
+                                
+                                }
+                                
 
-?>
+                            ?>
 						</form>
 					</div>
 				</div>
@@ -101,10 +101,10 @@ if($bookid){
             </div>
         </section>
 
-        <!-- İletişim -->
+        <!-- Contact -->
         <section class="iletisim">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 contact-title">
-                <div class="title">İLETİŞİM</div>
+                <div class="title">Contact</div>
                 <div class="line"></div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact-detail">
@@ -164,63 +164,8 @@ if($bookid){
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/jquery.nicescroll.min.js"></script>
         <script src="assets/js/custom.js"></script>
-        <script>
-        	function clickEvent(loc) {
-                var offset=$("." + loc).position().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }   
-        </script>
+        
 
-        <script>
-            var hash=window.location.hash;
-            if (hash == "#reservation") {
-                var offset=$("#reservation").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#mediator") {
-                var offset=$("#mediator").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#mediator-when") {
-                var offset=$("#mediator-when").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#process") {
-                var offset=$("#process").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#law") {
-                var offset=$("#law").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-
-            var hash=window.location.hash;
-            if (hash == "#result") {
-                var offset=$("#result").offset().top;
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 900);    
-            }
-        </script>
+        
     </body>
 </html>
