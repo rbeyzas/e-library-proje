@@ -1,5 +1,7 @@
-<?php require_once("inc/connect.php");
-
+<?php 
+//This php line code draw data in connect.php.
+require_once("inc/connect.php");
+//İf cookie is enable, this php line code send to index.php.
 if(@$_COOKIE["giris"]=="1"){
     header("Location: index.php");
     exit();
@@ -56,39 +58,40 @@ if(@$_COOKIE["giris"]=="1"){
             <div class="col-md-6 form-group">
               <a href="signup.php"><input type="button" class="btnSubmit" value="Sign up" name="signup" /></a>
             </div>
-            <div class="form-group">
-              <a href="#" class="ForgetPwd">Forget Password?</a>
-            </div>
+            
             <?php
-
+                        //This code run when click sign in button.
                         if(@$_POST["signin"]){
                             $user=$_POST["user"];
                             $password=$_POST["password"];
                             $reme=$_POST["reme"];
-                            
+                            //if draw data user and password, run this code.
                             if($user && $password){
+                                //Php send query to database.
                                 $sql = mysqli_query($conn, "select count(*) as kulvar from users where user_kid='$user' and user_pass='$password' ");
                                 while($satir=mysqli_fetch_array($sql))
                                 {
+                                    //İf there is user in database, php keep to number of user.
                                     $giriskontrol=$satir['kulvar'];
                                 }
                            
-                                
+                                //İf giriskontrol bigger than 0, this code run and user sign in.
                                 if($giriskontrol>0){
-                                  echo "Giriş Yapıldı"; 
+                                  echo "Signed In!"; 
+                                  //İf user mark remember box, php keep time of user and php define cookie information of userid and userpassword.
                                     if($reme){ $zaman=(86400 * 30);
                                      $hatirla=1;
                                     }else{
                                      $zaman=(86400 / 6);
                                      $hatirla=0; }
-                                     setcookie("kid", $user, time() + $zaman); setcookie("sifre",$password, time() + $zaman); 
+                                     setcookie("kid", $user, time() + $zaman); 
+                                     setcookie("sifre",$password, time() + $zaman); 
                                      setcookie("giris", 1, time() + $zaman);
                                      setcookie("hatirla", $hatirla, time() + (86400 * 30));
                                      header("Refresh: 1; url=index.php"); 
-                                    }else{ echo 
-                                      "Kullanıcı adı veya şifre hatalı"; 
+                                    }else{ echo "Username or password is wrong"; 
                                     } 
-                              }else{ echo "Lütfen tüm alanları doldurunuz!"; 
+                              }else{ echo "Please fill in all fields!"; 
                               } 
                             }
             ?>

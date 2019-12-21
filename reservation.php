@@ -1,15 +1,17 @@
 <html lang="tr">
-<?php require_once("inc/connect.php"); 
+<?php //This php line code draw data in connect.php.
+require_once("inc/connect.php"); 
 
 $pagenum=3; 
 
-
+//Keeping information by button assign to variable. 
 $bookid=@$_GET["id"];
 $bookname=@$_GET["bookname"];
 if($bookid){
     
     $rezervebook;
     $counter=0;
+    //This code send query to sql and find book_id in database.
     $sql = mysqli_query($conn, "select * from books where book_id='$bookid' ");
     while($satir=mysqli_fetch_array($sql))
     {
@@ -17,7 +19,7 @@ if($bookid){
         $counter=1;
     }
 
-   
+   //if there is not book, this code send index.php.
     if($counter==0){
         header("Location: index.php");
         exit();
@@ -25,6 +27,7 @@ if($bookid){
 
 
 }else{
+    // there is not id this code is run.
     header("Location: index.php");
     exit();    
 }
@@ -51,10 +54,11 @@ if($bookid){
     <body>
         <!-- Header -->
         <div class="header">
+        <!--This php line code draw data in header.php.-->
         <?php include("theme/header.php"); ?>
         </div>
 
-        <!-- Rezervasyon nasıl yapılır -->
+        <!-- How to make reservation -->
         <section class="reservation" id="reservation">
             <div class="reservation-container">
                 <div class="col-md-12 reservation-big-title">
@@ -63,34 +67,39 @@ if($bookid){
                 <div class="col-md-12 reservation-desc">     
                 <div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
-						<div class="intro_form_title"><em>Rezervasyon yap</em> </div>
+						<div class="intro_form_title"><em>Make a Reservation</em> </div>
 						<form action="" method="post" class="intro_form" id="intro_form">
 							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-								<input type="text" name="name" class="intro_input" placeholder="İsim"  value="<?=@$_COOKIE['kid']?>">
+                                                                                                        <!-- This php code keep cookie information about user sign id-->
+								<input type="text" name="name" class="intro_input" placeholder="Name"  value="<?=@$_COOKIE['kid']?>">
 								<input type="email" name="email" class="intro_input" placeholder="E-mail" >
 								<input type="text" name="date" id="datepicker" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="intro_input datepicker" placeholder="Date">
 							</div>
-                            <input type="submit" value="Rezervasyon Yap" name="signup"/>
+                            <input type="submit" value="Make Reservation" name="signup"/>
 
                             <?php
-    if($_POST){
-        
-        if($_POST['name'] && $_POST['date'] && $_POST['email']){
-            $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
-            if (mysqli_query($conn, $sql)) {    
-                  echo "Kayıt gerçekleştirildi!";
-            } else {
-                  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-            mysqli_close($conn);  
-        }else{
+                            //if user make a reservation, this php code reserve book and save to database.
+                            if($_POST){
+                                //Php is controlling to user don't fill all blank or user fill all blank.
+                                if($_POST['name'] && $_POST['date'] && $_POST['email']){
+                                    //And then if user fill all blank, php add to database.
+                                    $sql = "INSERT INTO reservation (r_name, r_date, r_email, r_bookid, r_bookname) VALUES ('".$_POST['name']."', ".$_POST['date'].", '".$_POST['email']."', ".$_GET['id'].", '".$_GET["bookname"]."')";
+                                    //if sql query is successful or unsuccessful, php show a message.
+                                    if (mysqli_query($conn, $sql)) {    
+                                        echo "Registration completed!";
+                                    } else {
+                                        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                                    }
+                                    //End of the operation, database close.
+                                    mysqli_close($conn);  
+                                }else{
 
-        echo "Lütfen tüm alanları doldurunuz!"; 
+                                echo "Please fill in all fields!"; 
 
-        }
+                                }
 
-    
-    }
+                            
+                            }
       
 
 ?>

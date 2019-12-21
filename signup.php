@@ -1,5 +1,7 @@
-<?php require_once("inc/connect.php"); 
-
+<?php 
+//This php line code draw data in connect.php.
+require_once("inc/connect.php"); 
+//İf cookie is enable, this php line code send to index.php.
 if(@$_COOKIE["giris"]=="1"){
     header("Location: index.php");
     exit();
@@ -53,7 +55,7 @@ if(@$_COOKIE["giris"]=="1"){
 
 
 
-
+                        //This code run when click sign up button.
                         if(@$_POST["signup"]){
 
                             $user=$_POST["user"];
@@ -61,26 +63,27 @@ if(@$_COOKIE["giris"]=="1"){
                             $password2=$_POST["password2"];
                             $mail=$_POST["mail"];
 
-                            /* Eposta ve kullanıcı adı kontrol alanı */
+                            /* Email and username control field */
                             $sql = mysqli_query($conn, "select count(*) as kulvar from users where user_kid='$user' or user_email='$mail' ");
                             while($satir=mysqli_fetch_array($sql))
                             {
                                 $kullanicikontrol=$satir['kulvar'];
                             }
                             if(!$user || !$password || !$password2 || !$mail){
-                                echo "Lütfen tüm alanları doldurunuz!";
+                                echo "Please fill in all fields!";
                             }else if(!filter_var($mail, FILTER_VALIDATE_EMAIL)){
-                                echo "E posta adresi hatalı";
+                                echo "E-mail address is incorrect!";
                             }else if($password!=$password2){
-                                echo "Girilen şifreler uyuşmuyor";
+                                echo "Passwords entered do not match!";
                             }else{
-                                
+                                //if the user has already registered, php show a message.
                                 if($kullanicikontrol>0){
-                                    echo "Girilen kullanıcı adı veya e-posta adresi zaten kullanılıyor.";
+                                    echo "The username or email address entered is already in use.";
                                 }else{
+                                    //Php send query to database and add to database of user information.
                                     $sql = "INSERT INTO users (user_kid, user_email, user_pass) VALUES ('".$user."', '".$mail."', '".$password."')";
                                     if (mysqli_query($conn, $sql)) {    
-                                          echo "Kayıt gerçekleştirildi!";
+                                          echo "Registration completed!";
                                           header("Location: signin.php"); 
                                     } else {
                                           echo "Error: " . $sql . "<br>" . mysqli_error($conn);
